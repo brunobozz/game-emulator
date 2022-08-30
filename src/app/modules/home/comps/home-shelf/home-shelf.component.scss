@@ -1,0 +1,41 @@
+.shelf {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+
+  display: flex;
+
+  &-item {
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    &-play {
+      display: none;
+    }
+    &-info {
+      display: none;
+    }
+    &-img {
+      height: 200px;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+//Scrollbar
+::-webkit-scrollbar {
+  width: 2px;
+  height: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: lighten(rgba(255, 255, 255, 0.2), 5);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: lighten(rgba(255, 255, 255, 0.3), 10%);
+}

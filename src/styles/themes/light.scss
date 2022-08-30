@@ -1,0 +1,21 @@
+@import "../variables";
+$theme: "light" !default;
+
+$light: $gray-200 !default;
+$dark: $gray-900 !default;
+
+$min-contrast-ratio: 1.95 !default;
+
+// Body
+$body-bg: $gray-100 !default;
+$body-color: #333 !default;
+
+// Cards
+$card-border-color: rgba($white, 0.6) !default;
+$card-cap-bg: darken($body-bg, 1%) !default;
+$card-bg: lighten($body-bg, 5%) !default;
+.card {
+  box-shadow: 0 0 8px rgba($gray-900, 0.2);
+}
+
+@import "~bootstrap/scss/bootstrap";

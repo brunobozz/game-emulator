@@ -1,0 +1,15 @@
+<div class="shelf">
+  <div *ngFor="let item of items" class="shelf-item">
+    <div class="shelf-item-play">
+      <i class="fa fa-play"></i>
+    </div>
+    <div class="shelf-item-info">
+      <span>{{ item.title }}</span>
+    </div>
+    <img
+      class="shelf-item-img"
+      src="../../../../../assets/covers/snes/{{ item.image }}"
+      alt=""
+    />
+  </div>
+</div>
