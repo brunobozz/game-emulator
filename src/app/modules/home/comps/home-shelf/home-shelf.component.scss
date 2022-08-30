@@ -1,8 +1,20 @@
+.header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  img {
+    height: 40px;
+  }
+  span {
+    font-size: 24px;
+  }
+}
+
 .shelf {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
-
+  margin-bottom: 60px;
   display: flex;
 
   &-item {
@@ -18,9 +30,13 @@
     &-img {
       height: 200px;
     }
+    &-img.medium {
+      height: 300px;
+    }
 
     &:hover {
       transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     }
   }
 }
@@ -34,8 +50,8 @@
   background: #111;
 }
 ::-webkit-scrollbar-thumb {
-  background: lighten(rgba(255, 255, 255, 0.2), 5);
+  background: rgba(255, 255, 255, 0.1);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: lighten(rgba(255, 255, 255, 0.3), 10%);
+  background: rgba(255, 255, 255, 0.2);
 }

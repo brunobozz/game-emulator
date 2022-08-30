@@ -1,11 +1,21 @@
-<app-home-sidebar></app-home-sidebar>
-<app-home-highlights></app-home-highlights>
+<div class="home">
+  <app-home-sidebar></app-home-sidebar>
+  <app-home-highlights></app-home-highlights>
 
-<h2 class="ms-4">SNES</h2>
-<app-home-shelf></app-home-shelf>
-
-<h2 class="ms-4 mt-4">Mega Drive</h2>
-<app-home-shelf></app-home-shelf>
-
-<h2 class="ms-4 mt-4">Play Station</h2>
-<app-home-shelf></app-home-shelf>
+  <app-home-shelf
+    title="Play Station"
+    [items]="play"
+    logo="https://seeklogo.com/images/P/playstation-logo-A5B6E4856C-seeklogo.com.png"
+  ></app-home-shelf>
+  <app-home-shelf
+    title="Super Nintendo"
+    [items]="snes"
+    logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/SNES_logo.svg/2560px-SNES_logo.svg.png"
+  ></app-home-shelf>
+  <app-home-shelf
+    title="Master System"
+    [items]="master"
+    logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Master_System_Logo.svg/1280px-Master_System_Logo.svg.png"
+    size="medium"
+  ></app-home-shelf>
+</div>
