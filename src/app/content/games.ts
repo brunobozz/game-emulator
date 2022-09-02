@@ -503,6 +503,20 @@ export const games = [
     cover:
       'https://www.mobygames.com/images/covers/l/22057-grand-theft-auto-2-playstation-front-cover.jpg',
     rom: 'https://www.retrogames.cc/embed/41828-grand-theft-auto-2.html',
-    id: '-gXRwEm',
+    id: 'rgXRwEm',
   },
+  {
+    title:'Gran Turismo',
+    platform:'psx',
+    cover:'https://i.ebayimg.com/images/g/05YAAOSwlxRaaLU5/s-l300.jpg',
+    rom:'https://www.retrogames.cc/embed/41826-gran-turismo.html',
+    id:'gkGF8rm'
+  },
+//   {
+//     title:'',
+//     platform:'',
+//     cover:'',
+//     rom:'',
+//     id:''
+//   }
 ];
