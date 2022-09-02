@@ -1,0 +1,34 @@
+<div class="card mt-4">
+  <div class="card-header">
+    <i class="fa fa-list"></i>
+    <span> Games List</span>
+  </div>
+
+  <table class="table table-striped table-borderless align-middle mb-0">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Game</th>
+        <th scope="col" class="text-center">Platform</th>
+        <th scope="col" class="text-end">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let game of gamesList; let i = index">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>
+          <img [src]="game.cover" class="me-2" height="36px" alt="" />
+          {{ game.title }}
+        </td>
+        <td class="text-center">
+          <img src="../../../../../assets/platforms/{{ game.platform }}.png" height="16px" alt="">
+        </td>
+        <td class="text-end">
+          <button class="btn btn-sm">
+            <i class="fa fa-trash"></i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

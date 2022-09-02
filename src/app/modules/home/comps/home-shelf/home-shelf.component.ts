@@ -1,17 +1,21 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home-shelf',
   templateUrl: './home-shelf.component.html',
   styleUrls: ['./home-shelf.component.scss'],
 })
-export class HomeShelfComponent implements OnInit {
+export class HomeShelfComponent {
   @Input() items: any;
   @Input() logo?: string;
   @Input() title?: string;
   @Input() size?: string;
 
-  constructor() {}
+  constructor(private router: Router) {}
 
-  ngOnInit(): void {}
+  public letsGame(id: string) {
+    console.log(id);
+    this.router.navigateByUrl('/game/' + id);
+  }
 }

@@ -1,21 +1,26 @@
 <div class="home">
   <app-home-sidebar></app-home-sidebar>
-  <app-home-highlights></app-home-highlights>
+  <!-- <app-home-highlights></app-home-highlights> -->
 
   <app-home-shelf
     title="Play Station"
-    [items]="play"
-    logo="https://seeklogo.com/images/P/playstation-logo-A5B6E4856C-seeklogo.com.png"
+    [items]="psxList"
+    logo="../../../assets/platforms/psx.png"
+  ></app-home-shelf>
+  <app-home-shelf
+    title="Nintendo 64"
+    [items]="n64List"
+    logo="../../../assets/platforms/n64.png"
   ></app-home-shelf>
   <app-home-shelf
     title="Super Nintendo"
-    [items]="snes"
-    logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/SNES_logo.svg/2560px-SNES_logo.svg.png"
+    [items]="snesList"
+    logo="../../../assets/platforms/snes.png"
   ></app-home-shelf>
   <app-home-shelf
     title="Master System"
-    [items]="master"
-    logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Master_System_Logo.svg/1280px-Master_System_Logo.svg.png"
+    [items]="masterList"
+    logo="../../../assets/platforms/master.png"
     size="medium"
   ></app-home-shelf>
 </div>

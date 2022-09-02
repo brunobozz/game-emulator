@@ -6,7 +6,12 @@ import { HomeHighlightsComponent } from './comps/home-highlights/home-highlights
 import { HomeShelfComponent } from './comps/home-shelf/home-shelf.component';
 
 @NgModule({
-  declarations: [HomeComponent, HomeSidebarComponent, HomeHighlightsComponent, HomeShelfComponent],
+  declarations: [
+    HomeComponent,
+    HomeSidebarComponent,
+    HomeHighlightsComponent,
+    HomeShelfComponent,
+  ],
   imports: [CommonModule],
 })
 export class HomeModule {}

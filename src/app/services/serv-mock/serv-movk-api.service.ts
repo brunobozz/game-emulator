@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ServMovkApiService {
-  private API_PREFIX = 'http://localhost:3001';
+  private API_PREFIX = 'http://localhost:3000';
 
   constructor(private http: HttpClient) {}
 
@@ -13,8 +13,8 @@ export class ServMovkApiService {
     return this.http.get(this.API_PREFIX + endPoint);
   }
 
-  public postData(area: string, data: any) {
-    return this.http.post(this.API_PREFIX + area, data);
+  public postData(endPoint: string, data: any) {
+    return this.http.post(this.API_PREFIX + endPoint, data);
   }
 
   public deleteData(endPoint: string, id: string) {

@@ -3,7 +3,11 @@
   <button class="btn btn-sm">Ver tudo</button>
 </div>
 <div class="shelf">
-  <div *ngFor="let item of items" class="shelf-item">
+  <div
+    *ngFor="let item of items"
+    class="shelf-item"
+    (click)="letsGame(item.id)"
+  >
     <div class="shelf-item-play">
       <i class="fa fa-play"></i>
     </div>
@@ -12,7 +16,7 @@
     </div>
     <img
       class="shelf-item-img {{ size }}"
-      src="{{ item.image }}"
+      src="{{ item.cover }}"
       alt="{{ item.title }}"
     />
   </div>

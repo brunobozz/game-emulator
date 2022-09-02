@@ -1,0 +1,16 @@
+<!-- <div *ngIf="game">
+  <h1>{{ game.title }}</h1>
+  <img [src]="game.cover" height="500px" alt="" />
+</div> -->
+<div *ngIf="game">
+  <iframe
+    [src]="game.rom | safe"
+    width="100%"
+    frameborder="no"
+    allowfullscreen="true"
+    webkitallowfullscreen="true"
+    mozallowfullscreen="true"
+    scrolling="no"
+    style="height: 100vh"
+  ></iframe>
+</div>

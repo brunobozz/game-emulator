@@ -1,0 +1,57 @@
+<div class="card mt-4">
+  <div class="card-header">
+    <i class="fa fa-gamepad"></i>
+    <span> Cadastro de jogos</span>
+  </div>
+  <div class="card-body">
+    <form [formGroup]="gameForm" class="row" (ngSubmit)="submitForm()">
+      <div class="col-md-6 mb-2">
+        <label for="title" class="form-label fw-bold">Title:</label>
+        <input
+          type="text"
+          class="form-control"
+          [ngClass]="{ 'is-invalid': validaCampo('title') }"
+          formControlName="title"
+        />
+        <div class="invalid-feedback small">Invalid title</div>
+      </div>
+      <div class="col-md-6 mb-2">
+        <label for="platform" class="form-label fw-bold">Platform:</label>
+        <input
+          type="text"
+          class="form-control"
+          [ngClass]="{ 'is-invalid': validaCampo('platform') }"
+          formControlName="platform"
+        />
+        <div class="invalid-feedback small">Invalid platform</div>
+      </div>
+      <div class="col-md-6 mb-2">
+        <label for="cover" class="form-label fw-bold">Cover:</label>
+        <input
+          type="text"
+          class="form-control"
+          [ngClass]="{ 'is-invalid': validaCampo('cover') }"
+          formControlName="cover"
+        />
+        <div class="invalid-feedback small">Invalid cover</div>
+      </div>
+      <div class="col-md-6 mb-2">
+        <label for="rom" class="form-label fw-bold">Rom Iframe Url:</label>
+        <input
+          type="text"
+          class="form-control"
+          [ngClass]="{ 'is-invalid': validaCampo('rom') }"
+          formControlName="rom"
+        />
+        <div class="invalid-feedback small">Invalid url</div>
+      </div>
+
+      <div class="mt-2 text-end">
+        <button type="submit" class="btn btn-success">
+          <i class="fa fa-save"></i>
+          <span> Cadastrar</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

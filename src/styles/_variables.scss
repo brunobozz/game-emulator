@@ -23,8 +23,11 @@ $orange: #fd7e14 !default;
 $yellow: #d3e018 !default;
 $green: #57ce57 !default;
 $teal: #20c997 !default;
-$cyan: #5bc0de !default;
+$cyan: #4375ff !default;
 $primary: $red-race;
+
+$psx: #5bc0de !default;
+$snes: #df2323 !default;
 
 $theme-colors: (
   "primary": $red-race,
@@ -33,6 +36,8 @@ $theme-colors: (
   "danger": $red,
   "info": $cyan,
   "warning": $yellow,
+  "psx": $psx,
+  "snes": $snes,
 );
 
 $custom-colors: (
