@@ -149,14 +149,14 @@ export const games = [
     rom: 'https://www.retrogames.cc/embed/32121-star-fox-64-usa.html',
     id: 'TJI_UVF',
   },
-  {
-    title: 'Super Mario 64',
-    platform: 'n64',
-    cover:
-      'https://i.pinimg.com/originals/ca/fb/cd/cafbcd3cfb8eed92249ea4e1f095eeb4.png',
-    rom: 'https://www.retrogames.cc/embed/42610-super-bowser-64.html',
-    id: 'f-AaYfy',
-  },
+  // {
+  //   title: 'Super Mario 64',
+  //   platform: 'n64',
+  //   cover:
+  //     'https://i.pinimg.com/originals/ca/fb/cd/cafbcd3cfb8eed92249ea4e1f095eeb4.png',
+  //   rom: 'https://www.retrogames.cc/embed/42610-super-bowser-64.html',
+  //   id: 'f-AaYfy',
+  // },
   {
     title: 'Mario Kart 64',
     platform: 'n64',
@@ -205,14 +205,14 @@ export const games = [
     rom: 'https://www.retrogames.cc/embed/30614-ayrton-senna-s-super-monaco-gp-ii-europe.html',
     id: 'HY3ffMT',
   },
-  {
-    title: 'Back to the Future Part II',
-    platform: 'master',
-    cover:
-      'https://www.mobygames.com/images/covers/l/48742-back-to-the-future-part-ii-sega-master-system-front-cover.jpg',
-    rom: 'https://www.retrogames.cc/embed/30616-back-to-the-future-part-ii-europe.html',
-    id: 'Rscx8R3',
-  },
+  // {
+  //   title: 'Back to the Future Part II',
+  //   platform: 'master',
+  //   cover:
+  //     'https://www.mobygames.com/images/covers/l/48742-back-to-the-future-part-ii-sega-master-system-front-cover.jpg',
+  //   rom: 'https://www.retrogames.cc/embed/30616-back-to-the-future-part-ii-europe.html',
+  //   id: 'Rscx8R3',
+  // },
   {
     title: 'Back to the Future Part III',
     platform: 'master',
@@ -411,14 +411,14 @@ export const games = [
     rom: 'https://www.retrogames.cc/embed/23597-street-fighter-ii-the-world-warrior-usa.html',
     id: '_PofsaB',
   },
-  {
-    title: 'Super Mario World',
-    platform: 'snes',
-    cover:
-      'https://www.mobygames.com/images/covers/l/195535-super-mario-world-snes-front-cover.jpg',
-    rom: 'https://www.retrogames.cc/embed/42720-super-marina-world.html',
-    id: 'GPXmmtu',
-  },
+  // {
+  //   title: 'Super Mario World',
+  //   platform: 'snes',
+  //   cover:
+  //     'https://www.mobygames.com/images/covers/l/195535-super-mario-world-snes-front-cover.jpg',
+  //   rom: 'https://www.retrogames.cc/embed/42720-super-marina-world.html',
+  //   id: 'GPXmmtu',
+  // },
   {
     title: 'Fatal Fury',
     platform: 'snes',
@@ -506,17 +506,360 @@ export const games = [
     id: 'rgXRwEm',
   },
   {
-    title:'Gran Turismo',
-    platform:'psx',
-    cover:'https://i.ebayimg.com/images/g/05YAAOSwlxRaaLU5/s-l300.jpg',
-    rom:'https://www.retrogames.cc/embed/41826-gran-turismo.html',
-    id:'gkGF8rm'
+    title: 'Gran Turismo',
+    platform: 'psx',
+    cover: 'https://i.ebayimg.com/images/g/05YAAOSwlxRaaLU5/s-l300.jpg',
+    rom: 'https://www.retrogames.cc/embed/41826-gran-turismo.html',
+    id: 'gkGF8rm',
   },
-//   {
-//     title:'',
-//     platform:'',
-//     cover:'',
-//     rom:'',
-//     id:''
-//   }
+  {
+    title: 'Dave Mirra Freestyle BMX: Maximum Remix',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/237088-dave-mirra-freestyle-bmx-maximum-remix-playstation-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/41712-dave-mirra-freestyle-bmx-maximum-remix.html',
+    id: 'kgfeGFD',
+  },
+  {
+    title: 'Dave Mirra Freestyle BMX',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/217380-dave-mirra-freestyle-bmx-playstation-front-cover.png',
+    rom: 'https://www.retrogames.cc/embed/41711-dave-mirra-freestyle-bmx.html',
+    id: 'agF4g2J',
+  },
+  {
+    title: 'Sunset Riders',
+    platform: 'arcade',
+    cover: 'https://pbs.twimg.com/media/Dqbt6UxXQAA2Sp7.jpg',
+    rom: 'https://www.retrogames.cc/embed/10130-sunset-riders-4-players-ver-uab.html',
+    id: '68sgTnd',
+  },
+  {
+    title: 'Bomberman 64',
+    platform: 'n64',
+    cover:
+      'https://www.mobygames.com/images/covers/l/450675-bomberman-64-nintendo-64-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/32279-bomberman-64-usa.html',
+    id: 'ondD4Y6',
+  },
+  {
+    title: 'Super Bomberman 5',
+    platform: 'snes',
+    cover:
+      'https://acao2d.com.br/wp-content/uploads/2021/07/super_bomberman_5_fan_made_american_box_art_by_starwarriordecade-d9c8ope.jpg',
+    rom: 'https://www.retrogames.cc/embed/43388-super-bomberman-5-english-translated.html',
+    id: 'Ks34us8',
+  },
+  {
+    title: 'F-Zero X',
+    platform: 'n64',
+    cover:
+      'https://www.mobygames.com/images/covers/l/69824-f-zero-x-nintendo-64-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/32410-f-zero-x-europe.html',
+    id: '94fUsw4',
+  },
+  {
+    title: 'Fighting Force',
+    platform: 'n64',
+    cover:
+      'https://2.bp.blogspot.com/-Dq6zAkxsFpI/WcK88lJlfJI/AAAAAAAAET8/_Paq3F2Q-VkljPfsOxpDCmKCFnhStAFSgCLcBGAs/s1600/141764-fighting-force-nintendo-64-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/32865-fighting-force-64-usa.html',
+    id: 'kdctrSe',
+  },
+  {
+    title: 'International Superstar Soccer 98',
+    platform: 'n64',
+    cover: 'https://images.nintendolife.com/b5e73b877c72e/na.large.jpg',
+    rom: 'https://www.retrogames.cc/embed/32374-international-superstar-soccer-98-usa.html',
+    id: 'seW3fjw',
+  },
+  {
+    title: 'Jeremy McGrath Supercross 2000',
+    platform: 'n64',
+    cover:
+      'https://bdjogos.com.br/capas/8718-jeremy-mcgrath-supercross-2000-nintendo-64-capa-1.jpg',
+    rom: 'https://www.retrogames.cc/embed/32427-jeremy-mcgrath-supercross-2000-usa.html',
+    id: '9aC3Jft',
+  },
+  {
+    title: 'Jet Force Gemini',
+    platform: 'n64',
+    cover:
+      'https://preview.redd.it/0m3opyqcdwr31.jpg?auto=webp&s=9d9bbe92dcaa9f9ee09af9bcf682eb33d472a2ba',
+    rom: 'https://www.retrogames.cc/embed/32163-jet-force-gemini-usa.html',
+    id: '26dSEW5',
+  },
+  {
+    title: 'Kobe Bryant NBA Courtside',
+    platform: 'n64',
+    cover:
+      'https://www.mobygames.com/images/covers/l/451932-kobe-bryant-in-nba-courtside-nintendo-64-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/33012-kobe-bryant-s-nba-courtside-usa.html',
+    id: '2288ffG',
+  },
+  {
+    title: 'Mortal Kombat Trilogy',
+    platform: 'n64',
+    cover:
+      'https://i0.wp.com/i.pinimg.com/originals/cd/03/83/cd03839a9715bc96dea8646729c654cc.png',
+    rom: 'https://www.retrogames.cc/embed/32208-mortal-kombat-trilogy-usa-rev-b.html',
+    id: 'kjrfDe4',
+  },
+  {
+    title: 'Sonic Adventure',
+    platform: 'n64',
+    cover:
+      'https://www.jogosonlinewx.com.br/wp-content/uploads/2020/09/Sonic-Adventure-64.jpg',
+    rom: 'https://www.retrogames.cc/embed/42101-sonic-adventure-64.html',
+    id: '88wgtE3',
+  },
+  {
+    title: 'Mickey Speedway',
+    platform: 'n64',
+    cover:
+      'https://upload.wikimedia.org/wikipedia/pt/3/39/Mickey%27s_Speedway_USA_cover.png',
+    rom: 'https://www.retrogames.cc/embed/32234-mickey-s-speedway-usa-usa.html',
+    id: 'dtD7gs4',
+  },
+  {
+    title: 'Mini Racers',
+    platform: 'n64',
+    cover:
+      'https://cdn.thegamesdb.net/images/original/boxart/front/35758-1.jpg',
+    rom: 'https://www.retrogames.cc/embed/32221-mini-racers-usa-proto.html',
+    id: 'Grhs438',
+  },
+  {
+    title: 'Mission Impossible',
+    platform: 'n64',
+    cover:
+      'https://www.mobygames.com/images/covers/l/444872-mission-impossible-nintendo-64-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/32179-mission-impossible-usa.html',
+    id: 'iidrS4D',
+  },
+  {
+    title: 'Monopoly',
+    platform: 'n64',
+    cover:
+      'https://wowroms-photos.com/emulators-roms-logo/30/24701/420-420/Monopoly+(USA)-image.jpg',
+    rom: 'https://www.retrogames.cc/embed/32380-monopoly-usa.html',
+    id: 'FFGjk6d',
+  },
+  {
+    title: 'Monster Truck Madness',
+    platform: 'n64',
+    cover:
+      'https://static.wikia.nocookie.net/monstertruck/images/5/56/5298_front.jpg',
+    rom: 'https://www.retrogames.cc/embed/32545-monster-truck-madness-64-usa.html',
+    id: 'isFtr4d',
+  },
+  {
+    title: 'Mortal Kombat 4',
+    platform: 'n64',
+    cover:
+      'https://www.mobygames.com/images/covers/l/54719-mortal-kombat-4-nintendo-64-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/32474-mortal-kombat-4-usa.html',
+    id: 'DSe35sS',
+  },
+  {
+    title: 'Ms. Pac-Man - Maze Madness',
+    platform: 'n64',
+    cover:
+      'https://www.mobygames.com/images/covers/l/267457-ms-pac-man-maze-madness-nintendo-64-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/33026-ms-pac-man-maze-madness-usa.html',
+    id: 'FFWE4hy',
+  },
+  {
+    title: 'NBA Live 2000',
+    platform: 'n64',
+    cover:
+      'https://bdjogos.com.br/capas/8633-nba-live-2000-nintendo-64-capa-1.jpg',
+    rom: 'https://www.retrogames.cc/embed/32503-nba-live-2000-usa-en-fr-de-es.html',
+    id: 'A67r3BF',
+  },
+  {
+    title: 'Re-Volt',
+    platform: 'n64',
+    cover: 'http://www.retroplace.com/pics/n64/packshots/49899--re-volt.png',
+    rom: 'https://www.retrogames.cc/embed/32674-re-volt-usa.html',
+    id: 'rG590SS',
+  },
+  {
+    title: 'Final Fight',
+    platform: 'snes',
+    cover:
+      'http://www.retroplace.com/pics/snes/packshots/137061--final-fight.png',
+    rom: 'https://www.retrogames.cc/embed/17377-final-fight-usa.html',
+    id: 'BF5gjsS',
+  },
+  {
+    title: 'Final Fight 2',
+    platform: 'snes',
+    cover:
+      'https://bdjogos.com.br/capas/702-final-fight-2-super-nintendo-capa-1.jpg',
+    rom: 'https://www.retrogames.cc/embed/24742-final-fight-2-usa.html',
+    id: '22f7e7D',
+  },
+  {
+    title: 'Final Fight 3',
+    platform: 'snes',
+    cover:
+      'http://4.bp.blogspot.com/-JgPjN0SyBX4/VWTv9gqKlmI/AAAAAAAAAkw/50wdqiQJcCQ/s1600/1443565-ff3snesusa.png',
+    rom: 'https://www.retrogames.cc/embed/24623-final-fight-3-usa.html',
+    id: 'yGWND93',
+  },
+  {
+    title: 'Kamen Rider',
+    platform: 'snes',
+    cover: 'https://i.imgur.com/vrxJin8.png',
+    rom: 'https://www.retrogames.cc/embed/22952-kamen-rider-japan.html',
+    id: 'SSH5jWq',
+  },
+  {
+    title: 'California Games II',
+    platform: 'snes',
+    cover:
+      'https://bdjogos.com.br/capas/8031-california-games-ii-super-nintendo-capa-1.jpg',
+    rom: 'https://www.retrogames.cc/embed/23687-california-games-ii-usa.html',
+    id: 'IBVM84f',
+  },
+  {
+    title: 'Captain Commando',
+    platform: 'snes',
+    cover:
+      'https://jumpersroms.files.wordpress.com/2020/04/captain-commando-c-snes-pt-br-1.jpg',
+    rom: 'https://www.retrogames.cc/embed/24501-captain-commando-usa.html',
+    id: 'Utne522',
+  },
+  {
+    title: 'Captain America and the Avengers',
+    platform: 'snes',
+    cover:
+      'https://www.mobygames.com/images/covers/l/165369-captain-america-and-the-avengers-snes-front-cover.png',
+    rom: 'https://www.retrogames.cc/embed/24031-captain-america-and-the-avengers-usa.html',
+    id: 'mhRn73d',
+  },
+  {
+    title: 'Sonic 3',
+    platform: 'genesis',
+    cover: 'https://i.pinimg.com/originals/1c/18/c9/1c18c9372196c2323bc6c1fadf0e9d02.jpg',
+    rom: 'https://www.retrogames.cc/embed/30002-sonic-the-hedgehog-3-europe.html',
+    id: 'jdsR884',
+  },
+  {
+    title: 'Teenage Mutant Ninja Turtles - Turtles in Time',
+    platform: 'arcade',
+    cover: 'https://www.gamulator.com/img/roms/tmnt-turtles-in-time-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/10271-teenage-mutant-ninja-turtles-turtles-in-time-4-players-ver-uaa.html',
+    id: 'IkHwer5',
+  },
+  {
+    title: 'Teenage Mutant Ninja Turtles',
+    platform: 'arcade',
+    cover:
+      'https://i.pinimg.com/originals/2a/53/10/2a5310b99185e4038662b356ce937d8b.jpg',
+    rom: 'https://www.retrogames.cc/embed/10266-teenage-mutant-ninja-turtles-us-4-players-set-1.html',
+    id: 'rnGrh63',
+  },
+  {
+    title: 'Final Fight',
+    platform: 'arcade',
+    cover:
+      'https://www.giantbomb.com/a/uploads/scale_small/0/1614/787389-final_fight_cd_scd_us.jpg',
+    rom: 'https://www.retrogames.cc/embed/8497-final-fight-900112-usa.html',
+    id: 'Aqop3g5',
+  },
+  {
+    title: 'The Simpsons',
+    platform: 'arcade',
+    cover:
+      'https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co497q.jpg',
+    rom: 'https://www.retrogames.cc/embed/10441-the-simpsons-4-players-world-set-1.html',
+    id: 'g5hdD3g',
+  },
+  {
+    title: 'Simpsons, The - Bart´s Nightmare',
+    platform: 'arcade',
+    cover: 'https://static-cdn.jtvnw.net/ttv-boxart/14111_IGDB-272x380.jpg',
+    rom: 'https://www.retrogames.cc/embed/23044-simpsons-the-bart-s-nightmare-usa.html',
+    id: 'slFt479',
+  },
+  {
+    title: 'Simpsons, The - Bart vs. the Space Mutants',
+    platform: 'arcade',
+    cover:
+      'https://www.mobygames.com/images/covers/l/206827-the-simpsons-bart-vs-the-space-mutants-nes-front-cover.png',
+    rom: 'https://www.retrogames.cc/embed/18072-simpsons-the-bart-vs-the-space-mutants-usa.html',
+    id: 'bbe64wg',
+  },
+  {
+    title: 'Street Fighter II - Champion Edition',
+    platform: 'arcade',
+    cover:
+      'https://bdjogos.com.br/capas/3523-Street-Fighter-II-Champion-Edition-Arcade-flyer-1.jpg',
+    rom: 'https://www.retrogames.cc/embed/10042-street-fighter-ii-champion-edition-yyc-bootleg-set-2-920313-etc-bootleg.html',
+    id: 'gjlS33f',
+  },
+  {
+    title: 'Spider Man',
+    platform: 'arcade',
+    cover:
+      'https://bdjogos.com.br/capas/15042018202137-Spider-Man-The-Videogame-Arcade-flyer-1.jpg',
+    rom: 'https://www.retrogames.cc/embed/42465-spider-man-the-videogame-world.html',
+    id: 'dj995de',
+  },
+  {
+    title: 'Marvel vs Capcom',
+    platform: 'arcade',
+    cover:
+      'https://i.pinimg.com/originals/4c/b9/f4/4cb9f4ca4721bb6928eee57f2a7e9afa.jpg',
+    rom: 'https://www.retrogames.cc/embed/9123-marvel-vs-capcom-clash-of-super-heroes-980123-usa.html',
+    id: 'nrT67wx',
+  },
+  {
+    title: 'Sonic 2 Heroes',
+    platform: 'genesis',
+    cover:
+      'https://static.wikia.nocookie.net/sonic/images/f/f9/Sonic2-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/42282-sonic-2-heroes.html',
+    id: 'soggb97',
+  },
+  {
+    title: 'Resident Evil 2 (Leon)',
+    platform: 'psx',
+    cover:
+      'https://sm.ign.com/ign_br/cover/r/resident-e/resident-evil-2_zknh.jpg',
+    rom: 'https://www.retrogames.cc/embed/42943-resident-evil-2-dual-shock-ver-disc-1-leon.html',
+    id: 'lkNF8ks',
+  },
+  {
+    title: 'Kings of the Beach - Professional Beach Volleyball',
+    platform: 'nes',
+    cover:
+      'https://r.mprd.se/fup/up/55997-Kings_of_the_Beach_-_Professional_Beach_Volleyball_(USA)-1496879150.png',
+    rom: 'https://www.retrogames.cc/embed/17065-kings-of-the-beach-professional-beach-volleyball-usa.html',
+    id: 'Sfgr5js',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
+  },
 ];

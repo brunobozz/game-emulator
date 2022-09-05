@@ -1,7 +1,12 @@
 <div class="home">
   <app-home-sidebar></app-home-sidebar>
   <!-- <app-home-highlights></app-home-highlights> -->
-
+  <app-home-shelf
+    title="Arcade"
+    [items]="arcadeList"
+    logo="../../../assets/platforms/arcade.png"
+    size="medium"
+  ></app-home-shelf>
   <app-home-shelf
     title="Play Station"
     [items]="psxList"
@@ -16,6 +21,18 @@
     title="Super Nintendo"
     [items]="snesList"
     logo="../../../assets/platforms/snes.png"
+  ></app-home-shelf>
+  <app-home-shelf
+    title="Nintendo"
+    [items]="nesList"
+    logo="../../../assets/platforms/nes.png"
+    size="medium"
+  ></app-home-shelf>
+  <app-home-shelf
+    title="Genesis"
+    [items]="genesisList"
+    logo="../../../assets/platforms/genesis.png"
+    size="medium"
   ></app-home-shelf>
   <app-home-shelf
     title="Master System"

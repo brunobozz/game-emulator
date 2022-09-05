@@ -15,6 +15,9 @@ export class HomeComponent implements OnInit {
   public masterList: any = [];
   public psxList: any = [];
   public n64List: any = [];
+  public arcadeList: any = [];
+  public nesList: any = [];
+  public genesisList: any = [];
 
   constructor(private apiService: ServMovkApiService) {}
 
@@ -43,6 +46,15 @@ export class HomeComponent implements OnInit {
       }
       if (game.platform == 'master') {
         this.masterList.push(game);
+      }
+      if (game.platform == 'arcade') {
+        this.arcadeList.push(game);
+      }
+      if (game.platform == 'nes') {
+        this.nesList.push(game);
+      }
+      if (game.platform == 'genesis') {
+        this.genesisList.push(game);
       }
     });
   }

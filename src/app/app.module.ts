@@ -9,10 +9,11 @@ import { AppComponent } from './app.component';
 import { HomeModule } from './modules/home/home.module';
 import { CmdModule } from './modules/cmd/cmd.module';
 import { GameModule } from './modules/game/game.module';
+import { PlatformModule } from './modules/platform/platform.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, HomeModule, CmdModule, GameModule],
+  imports: [BrowserModule, AppRoutingModule, HomeModule, CmdModule, GameModule, PlatformModule],
   providers: [],
   bootstrap: [AppComponent],
 })
