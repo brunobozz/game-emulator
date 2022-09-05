@@ -743,7 +743,8 @@ export const games = [
   {
     title: 'Sonic 3',
     platform: 'genesis',
-    cover: 'https://i.pinimg.com/originals/1c/18/c9/1c18c9372196c2323bc6c1fadf0e9d02.jpg',
+    cover:
+      'https://i.pinimg.com/originals/1c/18/c9/1c18c9372196c2323bc6c1fadf0e9d02.jpg',
     rom: 'https://www.retrogames.cc/embed/30002-sonic-the-hedgehog-3-europe.html',
     id: 'jdsR884',
   },
@@ -842,11 +843,12 @@ export const games = [
     id: 'Sfgr5js',
   },
   {
-    title: '',
-    platform: '',
-    cover: '',
-    rom: '',
-    id: '',
+    title: 'Street Fighter II Turbo',
+    platform: 'snes',
+    cover:
+      'https://www.mobygames.com/images/covers/l/531475-street-fighter-ii-turbo-snes-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/20197-street-fighter-ii-turbo-hyper-fighting-usa.html',
+    id: 'oasE3fr',
   },
   {
     title: '',
