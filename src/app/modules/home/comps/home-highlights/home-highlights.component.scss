@@ -12,11 +12,29 @@
 }
 
 .carousel-img {
-  height: 600px;
+  height: 800px;
   width: 100%;
   position: absolute;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
+}
+
+.another-img {
+  height: 800px;
+}
+
+@media screen and (max-width: 1280px) {
+  .carousel-img,
+  .another-img {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-img,
+  .another-img {
+    height: 400px;
+  }
 }

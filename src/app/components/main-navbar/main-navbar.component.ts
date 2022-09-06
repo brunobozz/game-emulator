@@ -10,16 +10,10 @@ import { NavigationEnd, NavigationStart, Router } from '@angular/router';
 export class MainNavbarComponent implements OnInit {
   public route: any;
 
-  constructor(private location: Location, private router: Router) {
-    this.route = window.location.pathname;
-  }
+  constructor(private location: Location, private router: Router) {}
 
   ngOnInit(): void {
     this.router.events.subscribe((event: any) => {
-      // if (event instanceof NavigationStart) {
-      //   console.log('Route change detected');
-      // }
-
       if (event instanceof NavigationEnd) {
         this.route = event.url;
         console.log(event.url);
