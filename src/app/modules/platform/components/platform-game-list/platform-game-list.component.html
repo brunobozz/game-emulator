@@ -1,1 +1,15 @@
-<p>platform-game-list works!</p>
+<div class="list container">
+  <div class="row">
+    <div
+      *ngFor="let game of platformGames"
+      class="list-item col-md-3"
+      (click)="letsGame(game.id)"
+    >
+      <img
+        class="list-item-img size-{{ platform }}"
+        src="{{ game.cover }}"
+        alt="{{ game.title }}"
+      />
+    </div>
+  </div>
+</div>

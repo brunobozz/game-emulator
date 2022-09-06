@@ -6,6 +6,6 @@
     *ngFor="let platform of platforms"
     title="{{ platform }}"
     [items]="gamesList"
-    logo="../../../assets/platforms/{{ platform }}.png"
+    [platform]="platform"
   ></app-home-shelf>
 </div>

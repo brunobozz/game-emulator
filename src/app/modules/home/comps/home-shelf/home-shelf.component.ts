@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class HomeShelfComponent implements OnInit {
   @Input() items: any;
-  @Input() logo?: string;
+  @Input() platform?: string;
   @Input() title?: string;
 
   constructor(private router: Router) {}

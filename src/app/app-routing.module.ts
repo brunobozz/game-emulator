@@ -28,7 +28,7 @@ const routes: Routes = [
     component: GameComponent,
   },
   {
-    path: 'platform/:name',
+    path: 'platform/:platform',
     component: PlatformComponent,
   },
 ];

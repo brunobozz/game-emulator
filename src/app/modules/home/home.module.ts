@@ -5,6 +5,7 @@ import { HomeSidebarComponent } from './comps/home-sidebar/home-sidebar.componen
 import { HomeHighlightsComponent } from './comps/home-highlights/home-highlights.component';
 import { HomeShelfComponent } from './comps/home-shelf/home-shelf.component';
 import { HomePlatformsComponent } from './comps/home-platforms/home-platforms.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,6 @@ import { HomePlatformsComponent } from './comps/home-platforms/home-platforms.co
     HomeShelfComponent,
     HomePlatformsComponent,
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
 })
 export class HomeModule {}
