@@ -3,21 +3,23 @@
   <!-- <button class="btn btn-sm">Ver tudo</button> -->
 </div>
 <div class="shelf">
-  <div
-    *ngFor="let item of items"
-    class="shelf-item"
-    (click)="letsGame(item.id)"
-  >
-    <div class="shelf-item-play">
-      <i class="fa fa-play"></i>
+  <div *ngFor="let item of items">
+    <div
+      *ngIf="item.platform == title"
+      class="shelf-item"
+      (click)="letsGame(item.id)"
+    >
+      <div class="shelf-item-play">
+        <i class="fa fa-play"></i>
+      </div>
+      <div class="shelf-item-info">
+        <span>{{ item.title }}</span>
+      </div>
+      <img
+        class="shelf-item-img size-{{ title }}"
+        src="{{ item.cover }}"
+        alt="{{ item.title }}"
+      />
     </div>
-    <div class="shelf-item-info">
-      <span>{{ item.title }}</span>
-    </div>
-    <img
-      class="shelf-item-img {{ size }}"
-      src="{{ item.cover }}"
-      alt="{{ item.title }}"
-    />
   </div>
 </div>

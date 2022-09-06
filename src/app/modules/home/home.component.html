@@ -1,43 +1,11 @@
 <div class="home">
   <app-home-sidebar></app-home-sidebar>
   <!-- <app-home-highlights></app-home-highlights> -->
+  <app-home-platforms [platforms]="platforms"></app-home-platforms>
   <app-home-shelf
-    title="Arcade"
-    [items]="arcadeList"
-    logo="../../../assets/platforms/arcade.png"
-    size="medium"
-  ></app-home-shelf>
-  <app-home-shelf
-    title="Play Station"
-    [items]="psxList"
-    logo="../../../assets/platforms/psx.png"
-  ></app-home-shelf>
-  <app-home-shelf
-    title="Nintendo 64"
-    [items]="n64List"
-    logo="../../../assets/platforms/n64.png"
-  ></app-home-shelf>
-  <app-home-shelf
-    title="Super Nintendo"
-    [items]="snesList"
-    logo="../../../assets/platforms/snes.png"
-  ></app-home-shelf>
-  <app-home-shelf
-    title="Nintendo"
-    [items]="nesList"
-    logo="../../../assets/platforms/nes.png"
-    size="medium"
-  ></app-home-shelf>
-  <app-home-shelf
-    title="Genesis"
-    [items]="genesisList"
-    logo="../../../assets/platforms/genesis.png"
-    size="medium"
-  ></app-home-shelf>
-  <app-home-shelf
-    title="Master System"
-    [items]="masterList"
-    logo="../../../assets/platforms/master.png"
-    size="medium"
+    *ngFor="let platform of platforms"
+    title="{{ platform }}"
+    [items]="gamesList"
+    logo="../../../assets/platforms/{{ platform }}.png"
   ></app-home-shelf>
 </div>

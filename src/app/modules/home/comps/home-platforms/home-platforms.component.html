@@ -1,0 +1,19 @@
+<section class="platforms container">
+  <div class="shadow-l"></div>
+  <div class="shadow-r"></div>
+  <div class="scroll-y">
+    <div class="platforms-area">
+      <div
+        *ngFor="let platform of platforms"
+        class="platforms-area-item"
+        (click)="letsPlatform(platform)"
+      >
+        <span>{{ platform }}</span>
+        <img
+          src="../../../../../assets/platforms/icon-{{ platform }}.svg"
+          alt="{{ platform }}"
+        />
+      </div>
+    </div>
+  </div>
+</section>

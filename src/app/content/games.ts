@@ -149,20 +149,20 @@ export const games = [
     rom: 'https://www.retrogames.cc/embed/32121-star-fox-64-usa.html',
     id: 'TJI_UVF',
   },
-  // {
-  //   title: 'Super Mario 64',
-  //   platform: 'n64',
-  //   cover:
-  //     'https://i.pinimg.com/originals/ca/fb/cd/cafbcd3cfb8eed92249ea4e1f095eeb4.png',
-  //   rom: 'https://www.retrogames.cc/embed/42610-super-bowser-64.html',
-  //   id: 'f-AaYfy',
-  // },
+  {
+    title: 'Super Mario 64',
+    platform: 'n64',
+    cover:
+      'https://i.pinimg.com/originals/ca/fb/cd/cafbcd3cfb8eed92249ea4e1f095eeb4.png',
+    rom: 'https://www.retrogames.cc/embed/32112-super-mario-64-usa.html',
+    id: 'f-AaYfy',
+  },
   {
     title: 'Mario Kart 64',
     platform: 'n64',
     cover:
       'https://i.pinimg.com/originals/70/dc/3d/70dc3d597c7ec37c785bf00703b0200a.jpg',
-    rom: 'https://www.retrogames.cc/embed/42312-battle-kart-64.html',
+    rom: 'https://www.retrogames.cc/embed/32603-mario-kart-64.html',
     id: '6bSwLgS',
   },
   {
@@ -411,14 +411,22 @@ export const games = [
     rom: 'https://www.retrogames.cc/embed/23597-street-fighter-ii-the-world-warrior-usa.html',
     id: '_PofsaB',
   },
-  // {
-  //   title: 'Super Mario World',
-  //   platform: 'snes',
-  //   cover:
-  //     'https://www.mobygames.com/images/covers/l/195535-super-mario-world-snes-front-cover.jpg',
-  //   rom: 'https://www.retrogames.cc/embed/42720-super-marina-world.html',
-  //   id: 'GPXmmtu',
-  // },
+  {
+    title: 'Super Mario World',
+    platform: 'snes',
+    cover:
+      'https://www.mobygames.com/images/covers/l/195535-super-mario-world-snes-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/16847-super-mario-world-usa.html',
+    id: 'GPXmmtu',
+  },
+  {
+    title: 'Super Mario Kart',
+    platform: 'snes',
+    cover:
+      'https://i.pinimg.com/originals/3b/fd/1a/3bfd1a92daf141b985f3e5d0c3843a6b.jpg',
+    rom: 'https://www.retrogames.cc/embed/16887-super-mario-kart-usa.html',
+    id: 'Fhgu64f',
+  },
   {
     title: 'Fatal Fury',
     platform: 'snes',
@@ -849,6 +857,35 @@ export const games = [
       'https://www.mobygames.com/images/covers/l/531475-street-fighter-ii-turbo-snes-front-cover.jpg',
     rom: 'https://www.retrogames.cc/embed/20197-street-fighter-ii-turbo-hyper-fighting-usa.html',
     id: 'oasE3fr',
+  },
+  {
+    title: 'Pokemon Fire Red Extended',
+    platform: 'gba',
+    cover:
+      'https://1.bp.blogspot.com/-xF4TvDx1WKY/YMdTfdLQa-I/AAAAAAAARok/DTAxTUF3CKg3MxLjjGo38HT4gcSrLBNdwCNcBGAsYHQ/w800/arcadeflix-pokemon-firered-version-game-boy-advance-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/42834-pokemon-fire-red-extended-v2-0-4.html',
+    id: 'jJdfik7',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
   },
   {
     title: '',

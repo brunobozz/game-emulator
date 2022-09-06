@@ -10,7 +10,6 @@ export class HomeShelfComponent implements OnInit {
   @Input() items: any;
   @Input() logo?: string;
   @Input() title?: string;
-  @Input() size?: string;
 
   constructor(private router: Router) {}
 
@@ -19,7 +18,6 @@ export class HomeShelfComponent implements OnInit {
   }
 
   public letsGame(id: string) {
-    console.log(id);
     this.router.navigateByUrl('/game/' + id);
   }
 
@@ -29,5 +27,4 @@ export class HomeShelfComponent implements OnInit {
       [array[i], array[j]] = [array[j], array[i]];
     }
   }
-  
 }

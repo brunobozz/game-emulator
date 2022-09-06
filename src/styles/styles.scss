@@ -48,3 +48,27 @@ label:focus,
 ::-webkit-scrollbar-thumb:hover {
   background: lighten($primary, 10%);
 }
+
+.scroll-y {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+//Scrollbar
+.scroll-y::-webkit-scrollbar {
+  width: 2px;
+  height: 4px;
+}
+.scroll-y::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll-y::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 2px;
+}
+.scroll-y:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+}
+.scroll-y:hover::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

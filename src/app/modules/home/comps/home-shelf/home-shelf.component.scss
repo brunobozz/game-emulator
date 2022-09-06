@@ -30,7 +30,11 @@
     &-img {
       height: 200px;
     }
-    &-img.medium {
+    &-img.size-master,
+    &-img.size-arcade,
+    &-img.size-nintendo,
+    &-img.size-nes,
+    &-img.size-genesis {
       height: 300px;
     }
 
