@@ -867,11 +867,12 @@ export const games = [
     id: 'jJdfik7',
   },
   {
-    title: '',
-    platform: '',
-    cover: '',
-    rom: '',
-    id: '',
+    title: 'Mystic Warriors',
+    platform: 'arcade',
+    cover:
+      'https://bdjogos.com.br/capas/1238-mystic-warriors-arcade-flyer-1.jpg',
+    rom: 'https://www.retrogames.cc/embed/33956-mystic-warriors-ver-uaa.html',
+    id: 'IBDr5dg',
   },
   {
     title: '',
