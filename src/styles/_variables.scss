@@ -1,5 +1,7 @@
 //CUSTOM COLORS
 $red-race: #af3030 !default;
+$neon-pink: #c531ff !default;
+$neon-yellow: #f1ff29 !default;
 
 //DEFAULT COLOR SYSTEM
 $white: #ffffff !default;
@@ -30,8 +32,8 @@ $psx: #5bc0de !default;
 $snes: #df2323 !default;
 
 $theme-colors: (
-  "primary": $red-race,
-  "secondary": $orange,
+  "primary": $neon-pink,
+  "secondary": $neon-yellow,
   "success": $green,
   "danger": $red,
   "info": $cyan,

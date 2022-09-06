@@ -3,11 +3,11 @@
     src="../../../../../assets/platforms/{{ platform }}.png"
     alt="{{ platform }}"
   />
-  <button class="btn btn-sm" routerLink="/platform/{{ platform }}">
+  <button class="btn btn-outline-primary" routerLink="/platform/{{ platform }}">
     Ver tudo
   </button>
 </div>
-<div class="shelf">
+<div class="shelf scroll-y">
   <div *ngFor="let item of items">
     <div
       *ngIf="item.platform == title"

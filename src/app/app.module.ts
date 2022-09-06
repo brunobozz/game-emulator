@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 // COMPONENTS
 import { AppComponent } from './app.component';
+import { MainNavbarComponent } from './components/main-navbar/main-navbar.component';
 
 // APP MODULES
 import { HomeModule } from './modules/home/home.module';
@@ -12,8 +13,15 @@ import { GameModule } from './modules/game/game.module';
 import { PlatformModule } from './modules/platform/platform.module';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, HomeModule, CmdModule, GameModule, PlatformModule],
+  declarations: [AppComponent, MainNavbarComponent],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HomeModule,
+    CmdModule,
+    GameModule,
+    PlatformModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

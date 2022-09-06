@@ -8,7 +8,12 @@ import { PlatformGameListComponent } from './components/platform-game-list/platf
 import { PlatformGameFilterComponent } from './components/platform-game-filter/platform-game-filter.component';
 
 @NgModule({
-  declarations: [PlatformComponent, PlatformNavbarComponent, PlatformGameListComponent, PlatformGameFilterComponent],
+  declarations: [
+    PlatformComponent,
+    PlatformNavbarComponent,
+    PlatformGameListComponent,
+    PlatformGameFilterComponent,
+  ],
   imports: [CommonModule, AppRoutingModule, HttpClientModule],
 })
 export class PlatformModule {}

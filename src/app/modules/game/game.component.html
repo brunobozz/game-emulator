@@ -1,20 +1,17 @@
-<app-game-navbar></app-game-navbar>
 <!--
 <app-game-info [game]="game"></app-game-info>
 -->
 
-<!-- <div class="container"> -->
-  <div *ngIf="game">
-    <iframe
-      [src]="game.rom | safe"
-      width="100%"
-      height="650px"
-      frameborder="no"
-      allowfullscreen="true"
-      webkitallowfullscreen="true"
-      mozallowfullscreen="true"
-      scrolling="no"
-      style="height: calc(100vh - 50px)"
-    ></iframe>
-  </div>
-<!-- </div> -->
+<div *ngIf="game">
+  <iframe
+    [src]="game.rom | safe"
+    width="100%"
+    height="650px"
+    frameborder="no"
+    allowfullscreen="true"
+    webkitallowfullscreen="true"
+    mozallowfullscreen="true"
+    scrolling="no"
+    style="height: calc(100vh - 80px)"
+  ></iframe>
+</div>

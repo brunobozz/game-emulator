@@ -12,8 +12,6 @@
 
 .shelf {
   width: 100%;
-  overflow: hidden;
-  overflow-x: auto;
   margin-bottom: 60px;
   display: flex;
 
@@ -43,19 +41,4 @@
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }
   }
-}
-
-//Scrollbar
-::-webkit-scrollbar {
-  width: 2px;
-  height: 3px;
-}
-::-webkit-scrollbar-track {
-  background: #111;
-}
-::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
-}
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.2);
 }
