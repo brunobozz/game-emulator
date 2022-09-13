@@ -913,25 +913,28 @@ export const games = [
     id: 'swhSAE2',
   },
   {
-    title: '',
-    platform: '',
-    cover: '',
-    rom: '',
-    id: '',
+    title: 'International Superstar Soccer 2000',
+    platform: 'n64',
+    cover:
+      'https://jumpersroms.files.wordpress.com/2020/03/international-superstar-soccer-2000-c-n64.jpg?w=640',
+    rom: 'https://www.retrogames.cc/embed/32980-international-superstar-soccer-2000-usa-en-es.html',
+    id: 'srVtr24',
   },
   {
-    title: '',
-    platform: '',
-    cover: '',
-    rom: '',
-    id: '',
+    title: 'Street Racer',
+    platform: 'snes',
+    cover:
+      'https://www.mobygames.com/images/covers/l/78694-street-racer-snes-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/22616-street-racer-europe.html',
+    id: 'yhbV3dw',
   },
   {
-    title: '',
-    platform: '',
-    cover: '',
+    title: 'Super Mario Multiplayer',
+    platform: 'n64',
+    cover:
+      'https://cdn.thegamesdb.net/images/original/boxart/front/89656-1.jpg',
     rom: '',
-    id: '',
+    id: 'Etb62wd',
   },
   {
     title: '',
