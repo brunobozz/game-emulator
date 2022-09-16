@@ -1012,7 +1012,7 @@ export const games = [
     title: 'Super Star Wars - Return of the Jedi',
     platform: 'snes',
     cover:
-      'https://static.wikia.nocookie.net/ptstarwars/images/9/94/SuperReturnOfTheJedi.jpg/revision/latest?cb=20120117171741',
+      'https://static.wikia.nocookie.net/ptstarwars/images/9/94/SuperReturnOfTheJedi.jpg',
     rom: 'https://www.retrogames.cc/embed/17363-super-star-wars-return-of-the-jedi-usa-rev-a.html',
     id: 'sw8nfr4',
   },
@@ -1160,39 +1160,137 @@ export const games = [
     id: 'ray4nd3',
   },
   {
-    title: '',
-    platform: '',
-    cover: '',
-    rom: '',
-    id: '',
+    title: 'SimCity 2000',
+    platform: 'psx',
+    cover: 'https://www.cashinculture.com/assets/images/Sim%20City%202000.jpg',
+    rom: 'https://www.retrogames.cc/embed/40069-simcity-2000.html',
+    id: 'sc2000h',
   },
   {
-    title: '',
-    platform: '',
-    cover: '',
-    rom: '',
-    id: '',
+    title: 'Woody Woodpecker Racing',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/325984-woody-woodpecker-racing-playstation-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/40074-woody-woodpecker-racing.html',
+    id: 'k92dbgg',
   },
   {
-    title: '',
-    platform: '',
-    cover: '',
-    rom: '',
-    id: '',
+    title: 'Tony Hawk´s Pro Skater 4',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/15663-tony-hawk-s-pro-skater-4-playstation-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/42359-tony-hawks-pro-skater-4.html',
+    id: 'thps4ht',
   },
   {
-    title: '',
-    platform: '',
-    cover: '',
-    rom: '',
-    id: '',
+    title: 'Syphon Filter 3',
+    platform: 'psx',
+    cover:
+      'https://i.pinimg.com/originals/f4/24/e1/f424e1f13492d32bcfc8714bcf4ff709.jpg',
+    rom: 'https://www.retrogames.cc/embed/40806-syphon-filter-3.html',
+    id: 'sfh3v80',
   },
   {
-    title: '',
-    platform: '',
-    cover: '',
-    rom: '',
-    id: '',
+    title: 'Syphon Filter 2',
+    platform: 'psx',
+    cover: 'https://i.ebayimg.com/images/g/beIAAMXQ-BZQ9wHU/s-l300.jpg',
+    rom: 'https://www.retrogames.cc/embed/40804-syphon-filter-2.html',
+    id: 'sf11n9d',
+  },
+  {
+    title: 'Syphon Filter',
+    platform: 'psx',
+    cover:
+      'https://gamesplusinc.com/wp-content/uploads/2013/11/KGrHqRigE9oILyuVHBPtvKbDqeg60_35186.jpg',
+    rom: 'https://www.retrogames.cc/embed/40805-syphon-filter.html',
+    id: 'sj73vF3',
+  },
+  {
+    title: 'Spider-Man',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/12193-spider-man-playstation-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/41980-spider-man.html',
+    id: 'spi1nb5',
+  },
+  {
+    title: 'Spider-Man 2',
+    platform: 'psx',
+    cover:
+      'https://i.pinimg.com/564x/63/91/d7/6391d728330a26632bfb0a7de5e13c93.jpg',
+    rom: 'https://www.retrogames.cc/embed/41981-spider-man-2-enter-electro.html',
+    id: 'spi2h4e',
+  },
+  {
+    title: 'Space Jam',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/218393-space-jam-playstation-front-cover.png',
+    rom: 'https://www.retrogames.cc/embed/40148-space-jam.html',
+    id: 'space3eg',
+  },
+  {
+    title: 'Twisted Metal 4',
+    platform: 'psx',
+    cover:
+      'https://wisegamer.net/wp-content/uploads/2020/04/Twisted-Metal-4-playstation-blog-wisegamer.jpg',
+    rom: 'https://www.retrogames.cc/embed/41548-twisted-metal-4.html"',
+    id: 'tm4sgg9',
+  },
+  {
+    title: 'Twisted Metal 3',
+    platform: 'psx',
+    cover:
+      'https://static.wikia.nocookie.net/twistedmetal/images/6/61/Twisted_metal_3-front.jpg',
+    rom: 'https://www.retrogames.cc/embed/41547-twisted-metal-3.html',
+    id: 'tm39fh5',
+  },
+  {
+    title: 'Twisted Metal 2',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/14294-twisted-metal-2-playstation-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/41546-twisted-metal-2.html',
+    id: 'tm2hs74',
+  },
+  {
+    title: 'Twisted Metal',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/257229-twisted-metal-playstation-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/41545-twisted-metal.html',
+    id: 'tm1frs7',
+  },
+  {
+    title: 'Silent Hill',
+    platform: 'psx',
+    cover:
+      'https://jogoveio.com.br/wp-content/uploads/2019/07/sh-cover-jogoveio.jpg',
+    rom: 'https://www.retrogames.cc/embed/41684-silent-hill.html',
+    id: 'sh54fw5',
+  },
+  {
+    title: 'Resident Evil 3: Nemesis',
+    platform: 'psx',
+    cover:
+      'https://upload.wikimedia.org/wikipedia/pt/8/8e/Resident_Evil_3_-_North-american_cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/42155-resident-evil-3-nemesis-u.html',
+    id: 're3nd6h',
+  },
+  {
+    title: 'Resident Evil',
+    platform: 'psx',
+    cover: 'https://cf.shopee.com.br/file/69049883fe57d5214505f063e2aaaad1',
+    rom: 'https://www.retrogames.cc/embed/42875-resident-evil.html',
+    id: 're1h790',
+  },
+  {
+    title: 'SimCity',
+    platform: 'sns',
+    cover:
+      'https://www.mobygames.com/images/covers/l/63959-simcity-snes-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/24864-simcity-usa.html',
+    id: 'sc2hr47',
   },
   {
     title: '',
