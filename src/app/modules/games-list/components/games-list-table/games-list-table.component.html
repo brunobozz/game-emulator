@@ -1,0 +1,25 @@
+<div class="table-responsive">
+  <table class="table table-striped table-borderless align-middle">
+    <thead>
+      <tr>
+        <th scope="col">GAME</th>
+        <th scope="col" class="text-end">PLATFORM</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let game of gamesList; let i = index">
+        <td>
+          {{ i + 1 }} -
+          <a routerLink="/game/{{ game.id }}">{{ game.title }}</a>
+        </td>
+        <td class="text-end">
+          <img
+            src="./assets/platforms/{{ game.platform }}.png"
+            width="80px"
+            alt=""
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CmdComponent } from './modules/cmd/cmd.component';
 import { CmdGameComponent } from './modules/cmd/routes/cmd-game/cmd-game.component';
 import { GameComponent } from './modules/game/game.component';
+import { GamesListComponent } from './modules/games-list/games-list.component';
 import { HomeComponent } from './modules/home/home.component';
 import { PlatformComponent } from './modules/platform/platform.component';
 
@@ -30,6 +31,10 @@ const routes: Routes = [
   {
     path: 'platform/:platform',
     component: PlatformComponent,
+  },
+  {
+    path: 'games-list',
+    component: GamesListComponent,
   },
 ];
 

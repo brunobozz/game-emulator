@@ -2,6 +2,7 @@
   <div>
     <img
       src="https://forums.launchbox-app.com/uploads/monthly_2020_10/arcade_all-games.png.89ce764881eb6f5614653093dcc8ea05.png"
+      class="ms-2"
       height="60px"
       alt="logo"
       routerLink="/"
@@ -15,20 +16,20 @@
     <i class="fa fa-chevron-left"></i>
     <span> BACK</span>
   </button>
-  <!-- <div class="d-flex">
-      <button class="btn btn-sm">
-        <i class="fa fa-money"></i>
-        <span> Prices</span>
-      </button>
-  
-      <button class="btn btn-sm">
-        <i class="fa fa-gamepad"></i>
-        <span> Game List</span>
-      </button>
-  
-      <button class="btn btn-sm">
-        <i class="fa fa-play"></i>
-        <span> Login</span>
-      </button>
-    </div> -->
+  <div class="d-flex" *ngIf="route == '/'">
+    <!-- <button class="btn btn-primary me-2">
+      <i class="fa fa-money"></i>
+      <span> Prices</span>
+    </button> -->
+
+    <button class="btn btn-primary me-2" routerLink="games-list">
+      <i class="fa fa-gamepad"></i>
+      <span> Games List</span>
+    </button>
+
+    <!-- <button class="btn btn-primary me-2">
+      <i class="fa fa-play"></i>
+      <span> Login</span>
+    </button> -->
+  </div>
 </div>

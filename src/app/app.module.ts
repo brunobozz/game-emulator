@@ -11,6 +11,7 @@ import { HomeModule } from './modules/home/home.module';
 import { CmdModule } from './modules/cmd/cmd.module';
 import { GameModule } from './modules/game/game.module';
 import { PlatformModule } from './modules/platform/platform.module';
+import { GamesListModule } from './modules/games-list/games-list.module';
 
 @NgModule({
   declarations: [AppComponent, MainNavbarComponent],
@@ -21,6 +22,7 @@ import { PlatformModule } from './modules/platform/platform.module';
     CmdModule,
     GameModule,
     PlatformModule,
+    GamesListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -5,11 +5,10 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 
 import { SafePipe } from 'src/app/pipes/safe-pipe';
-import { GameNavbarComponent } from './components/game-navbar/game-navbar.component';
 import { GameInfoComponent } from './components/game-info/game-info.component';
 
 @NgModule({
-  declarations: [GameComponent, SafePipe, GameNavbarComponent, GameInfoComponent],
+  declarations: [GameComponent, SafePipe, GameInfoComponent],
   imports: [CommonModule, AppRoutingModule, HttpClientModule],
 })
 export class GameModule {}

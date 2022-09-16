@@ -1,0 +1,28 @@
+<div class="btn-group" role="group" aria-label="Filter Games List">
+  <div
+    class="btn-group btn-group-sm"
+    role="group"
+    aria-label="Basic radio toggle button group"
+  >
+    <input
+      type="radio"
+      class="btn-check"
+      name="btnradio"
+      id="btnradio1"
+      autocomplete="off"
+      checked
+      (click)="sortBy('game')"
+    />
+    <label class="btn btn-outline-primary" for="btnradio1">GAME</label>
+
+    <input
+      type="radio"
+      class="btn-check"
+      name="btnradio"
+      id="btnradio2"
+      autocomplete="off"
+      (click)="sortBy('platform')"
+    />
+    <label class="btn btn-outline-primary" for="btnradio2">PLATFORM</label>
+  </div>
+</div>
