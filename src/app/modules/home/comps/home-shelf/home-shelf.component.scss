@@ -19,14 +19,14 @@
     margin: 20px;
     cursor: pointer;
     transition: all 0.1s ease-in-out;
-    &-play {
-      display: none;
-    }
-    &-info {
-      display: none;
-    }
+    position: relative;
+
     &-img {
       height: 200px;
+    }
+    &-img.size-psx,
+    &-img.size-gba {
+      height: 250px;
     }
     &-img.size-master,
     &-img.size-arcade,

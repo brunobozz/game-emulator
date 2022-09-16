@@ -12,9 +12,9 @@ export class HomeComponent {
 
   public platforms: any = [
     'arcade',
-    'snes',
     'psx',
     'n64',
+    'snes',
     'master',
     'genesis',
     'nes',

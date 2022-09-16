@@ -31,7 +31,14 @@ export class PlatformGameListComponent implements OnInit {
       if (game.platform == platform) {
         this.platformGames.push(game);
       }
+      this.sortList();
     });
+  }
+
+  private sortList() {
+    this.platformGames.sort((a: any, b: any) =>
+      a.title > b.title ? 1 : b.title > a.title ? -1 : 0
+    );
   }
 
   public letsGame(id: string) {
