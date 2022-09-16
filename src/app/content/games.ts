@@ -947,9 +947,259 @@ export const games = [
   {
     title: 'Bubble Bobble 2',
     platform: 'nes',
-    cover: 'https://www.mobygames.com/images/covers/l/16218-bubble-bobble-nes-front-cover.jpg',
+    cover:
+      'https://www.mobygames.com/images/covers/l/16218-bubble-bobble-nes-front-cover.jpg',
     rom: 'https://www.retrogames.cc/embed/21872-bubble-bobble-part-2-usa.html',
     id: 'U4FgsN4',
+  },
+  {
+    title: 'Super Street Fighter 2X',
+    platform: 'arcade',
+    cover:
+      'https://i.pinimg.com/originals/2d/16/4e/2d164e15e617c0c5accdf0ac252af909.jpg',
+    rom: 'https://www.retrogames.cc/embed/34477-super-street-fighter-ii-x-grand-master-challenge-japan-940223-rent-version.html',
+    id: 'dfNr2e9',
+  },
+  {
+    title: 'Tiny Toon Adventures - Buster Busts Loose!',
+    platform: 'snes',
+    cover:
+      'https://i.pinimg.com/736x/ed/18/15/ed1815e7c2a3ca6fb9dcdb2e564069cd.jpg',
+    rom: 'https://www.retrogames.cc/embed/23295-tiny-toon-adventures-buster-busts-loose-usa.html',
+    id: 'Acf336d',
+  },
+  {
+    title: 'The Magical Quest Starring Mickey Mouse',
+    platform: 'snes',
+    cover:
+      'https://static.wikia.nocookie.net/disney/images/c/c3/MagicalQuest1BoxArt.jpg',
+    rom: 'https://www.retrogames.cc/embed/20339-magical-quest-starring-mickey-mouse-the-usa-beta.html',
+    id: 'ndyt6ds',
+  },
+  {
+    title: 'Contra III - The Alien Wars',
+    platform: 'snes',
+    cover:
+      'https://jumpersroms.files.wordpress.com/2019/09/contra-iii-snes.jpg?w=1000',
+    rom: 'https://www.retrogames.cc/embed/23268-contra-iii-the-alien-wars-usa.html',
+    id: 'kBr4s2g',
+  },
+  {
+    title: 'Mortal Kombat II',
+    platform: 'snes',
+    cover:
+      'https://www.mobygames.com/images/covers/l/262601-mortal-kombat-ii-snes-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/22440-mortal-kombat-ii-usa.html',
+    id: 'Mk2F7jf',
+  },
+  {
+    title: 'Mortal Kombat III',
+    platform: 'snes',
+    cover:
+      'https://www.mobygames.com/images/covers/l/278627-ultimate-mortal-kombat-3-snes-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/24920-mortal-kombat-3-usa.html',
+    id: 'Mk3yhd48',
+  },
+  {
+    title: 'The Lost Vikings',
+    platform: 'snes',
+    cover:
+      'https://myemulator.online/wp-content/uploads/2018/09/the-lost-vikings.jpg',
+    rom: 'https://www.retrogames.cc/embed/22771-lost-vikings-the-usa.html',
+    id: 'k73dw2f',
+  },
+  {
+    title: 'Super Star Wars - Return of the Jedi',
+    platform: 'snes',
+    cover:
+      'https://static.wikia.nocookie.net/ptstarwars/images/9/94/SuperReturnOfTheJedi.jpg/revision/latest?cb=20120117171741',
+    rom: 'https://www.retrogames.cc/embed/17363-super-star-wars-return-of-the-jedi-usa-rev-a.html',
+    id: 'sw8nfr4',
+  },
+  {
+    title: 'Mega Man X2',
+    platform: 'snes',
+    cover:
+      'https://upload.wikimedia.org/wikipedia/pt/e/e0/Capa_Mega_Man_X2.jpg',
+    rom: 'https://www.retrogames.cc/embed/42365-megaman-x2-zero-playable.html',
+    id: '95hTe4v',
+  },
+  {
+    title: 'Jackie Chan Stuntmaster',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/447956-jackie-chan-stuntmaster-playstation-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/41909-jackie-chan-stuntmaster.html',
+    id: 'ke5b337',
+  },
+  {
+    title: 'Castlevania - Symphony Of The Night',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/194676-castlevania-symphony-of-the-night-playstation-front-cover.png',
+    rom: 'https://www.retrogames.cc/embed/41504-castlevania-symphony-of-the-night.html',
+    id: 'cr5F4ge',
+  },
+  {
+    title: 'Carmageddon',
+    platform: 'psx',
+    cover:
+      'https://i.pinimg.com/564x/38/80/71/3880716cbe8a0c84ac6f9752101820b0.jpg',
+    rom: 'https://www.retrogames.cc/embed/41647-carmageddon.html',
+    id: 'ec5kfl9',
+  },
+  {
+    title: 'Alone in the Dark - One Eyed Jack´s Revenge',
+    platform: 'psx',
+    cover: 'https://cdromance.com/wp-content/uploads/2019/02/33940_front.jpg',
+    rom: 'https://www.retrogames.cc/embed/41540-alone-in-the-dark-one-eyed-jacks-revenge.html',
+    id: 'bombf4D',
+  },
+  {
+    title: 'Die Hard Trilogy',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/89493-die-hard-trilogy-playstation-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/41729-die-hard-trilogy.html',
+    id: '66dj9sf',
+  },
+  {
+    title: 'Jet Moto 2',
+    platform: 'psx',
+    cover:
+      'https://www.covercentury.com/covers/psx/j/Jet-Moto-2-NTSC-PSX-FRONT.jpg',
+    rom: 'https://www.retrogames.cc/embed/41930-jet-moto-2.html',
+    id: 'Jm700ex',
+  },
+  {
+    title: 'Fighting Force',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/6689-fighting-force-playstation-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/41784-fighting-force.html',
+    id: 'Ff8nd45',
+  },
+  {
+    title: 'Fighting Force 2',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/119901-fighting-force-2-playstation-front-cover.png',
+    rom: 'https://www.retrogames.cc/embed/41785-fighting-force-2.html',
+    id: 'ff2yhnt',
+  },
+  {
+    title: 'Final Fantasy Tactics',
+    platform: 'psx',
+    cover:
+      'https://www.romstation.fr/romstation/resources/games/psx/cover/36198.jpg?1657096461',
+    rom: 'https://www.retrogames.cc/embed/41787-final-fantasy-tactics.html',
+    id: '7bjkS23',
+  },
+  {
+    title: 'Freestyle Motocross - McGrath vs. Pastrana',
+    platform: 'psx',
+    cover:
+      'https://upload.wikimedia.org/wikipedia/en/1/12/Freestyle_Motocross_McGrath_vs._Pastrana_cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/40198-freestyle-motocross-mcgrath-vs-pastrana.html',
+    id: 'fsmc500',
+  },
+  {
+    title: 'Formula Karts: Special Edition',
+    platform: 'psx',
+    cover:
+      'https://psxdatacenter.com/images/covers/P/F/SLES-00726/SLES-00726-F-ALL.jpg',
+    rom: 'https://www.retrogames.cc/embed/41807-formula-karts-special-edition.html',
+    id: '8hG4d6j',
+  },
+  {
+    title: 'Metal Slug X',
+    platform: 'psx',
+    cover:
+      'https://www.covercentury.com/covers/psx/m/Metal-Slug-X-NTSC-PSX-FRONT.jpg',
+    rom: 'https://www.retrogames.cc/embed/40065-metal-slug-x.html',
+    id: 'ms0l73h',
+  },
+  {
+    title: 'Metal Gear Solid (Disc 1)',
+    platform: 'psx',
+    cover:
+      'https://upload.wikimedia.org/wikipedia/pt/4/4c/Metal_Gear_Solid_-_North-american_cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/43266-metal-gear-solid-disc-1.html',
+    id: 'mgs1rd5',
+  },
+  {
+    title: 'Metal Gear Solid (Disc 2)',
+    platform: 'psx',
+    cover:
+      'https://www.covercentury.com/covers/psx/m/Metal-Gear-Solid-NTSC-PSX-FRONT.jpg',
+    rom: 'https://www.retrogames.cc/embed/43267-metal-gear-solid-disc-2.html',
+    id: 'mgs2ht6',
+  },
+  {
+    title: 'Parappa the Rapper',
+    platform: 'psx',
+    cover:
+      'https://www.mobygames.com/images/covers/l/6110-parappa-the-rapper-playstation-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/41581-parappa-the-rapper.html',
+    id: 'pp4r3dh',
+  },
+  {
+    title: 'Pro Evolution Soccer 2',
+    platform: 'psx',
+    cover:
+      'https://psxdatacenter.com/images/hires/P/P/SLES-03946/SLES-03946-F-ALL.jpg',
+    rom: 'https://www.retrogames.cc/embed/42622-pro-evolution-soccer-2.html',
+    id: 'pes2bj4',
+  },
+  {
+    title: 'Rayman',
+    platform: 'psx',
+    cover:
+      'https://i.pinimg.com/474x/8f/84/b6/8f84b625bc4d187cb107097f8198a5d6.jpg',
+    rom: 'https://www.retrogames.cc/embed/40795-rayman.html',
+    id: 'ray4nd3',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
+  },
+  {
+    title: '',
+    platform: '',
+    cover: '',
+    rom: '',
+    id: '',
   },
   {
     title: '',
