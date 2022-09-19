@@ -1,2 +1,8 @@
 <!-- <app-platform-game-filter></app-platform-game-filter> -->
-<app-platform-game-list [games]="gamesList"></app-platform-game-list>
+<div class="container mt-4 pt-2">
+  <app-search-term (searchTerm)="searchTerm($event)"></app-search-term>
+  <app-platform-game-list
+    [games]="gamesList"
+    [searchTerm]="term"
+  ></app-platform-game-list>
+</div>

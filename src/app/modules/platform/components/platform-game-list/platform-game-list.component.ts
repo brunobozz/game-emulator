@@ -8,6 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class PlatformGameListComponent implements OnInit {
   @Input() games: any;
+  @Input() searchTerm: any;
   public platform: any;
   public platformGames: any = [];
 

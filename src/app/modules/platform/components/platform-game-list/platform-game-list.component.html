@@ -1,15 +1,18 @@
-<div class="list container">
+<div class="list">
   <div class="row">
-    <div
-      *ngFor="let game of platformGames"
-      class="list-item col-md-3"
-      (click)="letsGame(game.id)"
-    >
-      <img
-        class="list-item-img size-{{ platform }}"
-        src="{{ game.cover }}"
-        alt="{{ game.title }}"
-      />
-    </div>
+    <ng-container *ngFor="let game of platformGames">
+      <div
+        *ngIf="game.title.toLowerCase().includes(searchTerm)"
+        class="col-6 col-sm-6 col-md-4 col-lg-3"
+      >
+        <div class="list-item" (click)="letsGame(game.id)">
+          <img
+            class="list-item-img size-{{ platform }}"
+            src="{{ game.cover }}"
+            alt="{{ game.title }}"
+          />
+        </div>
+      </div>
+    </ng-container>
   </div>
 </div>

@@ -1,3 +1,5 @@
+@import "../../../../../styles/variables";
+
 .list {
   &-item {
     cursor: pointer;
@@ -8,20 +10,22 @@
 
     &-img {
       transition: all 0.1s ease-in-out;
-      height: 200px;
+      width: 100%;
+      border: 0px solid $primary;
 
       &:hover {
-        transform: scale(1.05);
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        border: 8px solid $primary;
+        transform: scale(1.16);
+        box-shadow: 0 0 10px #000;
       }
     }
-    
-    &-img.size-master,
-    &-img.size-arcade,
-    &-img.size-nintendo,
-    &-img.size-nes,
-    &-img.size-genesis {
-      height: 300px;
-    }
+
+    // &-img.size-master,
+    // &-img.size-arcade,
+    // &-img.size-nintendo,
+    // &-img.size-nes,
+    // &-img.size-genesis {
+    //   height: 300px;
+    // }
   }
 }
