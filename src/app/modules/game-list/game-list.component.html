@@ -1,0 +1,14 @@
+<div class="container mt-4">
+  <div class="navbar mb-4">
+    <h2>
+      <i class="fa fa-gamepad text-secondary"></i>
+      <span class="text-primary"> Game List</span>
+    </h2>
+    <app-game-list-filter (filter)="filter($event)"></app-game-list-filter>
+  </div>
+  <app-search-term (searchTerm)="searchTerm($event)"></app-search-term>
+  <app-game-list-table
+    [gamesList]="gamesList"
+    [searchTerm]="term"
+  ></app-game-list-table>
+</div>

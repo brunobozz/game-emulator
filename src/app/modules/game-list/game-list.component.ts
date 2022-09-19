@@ -2,14 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { games } from 'src/app/content/games';
 
 @Component({
-  selector: 'app-games-list',
-  templateUrl: './games-list.component.html',
+  selector: 'app-game-list',
+  templateUrl: './game-list.component.html',
 })
-export class GamesListComponent implements OnInit {
+export class GameListComponent implements OnInit {
   public term: string = '';
   public gamesList = games;
-
-  constructor() {}
 
   ngOnInit(): void {
     this.sortListAsc(this.gamesList);

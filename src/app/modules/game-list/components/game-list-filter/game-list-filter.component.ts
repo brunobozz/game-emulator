@@ -1,10 +1,10 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-games-list-filter',
-  templateUrl: './games-list-filter.component.html',
+  selector: 'app-game-list-filter',
+  templateUrl: './game-list-filter.component.html',
 })
-export class GamesListFilterComponent {
+export class GameListFilterComponent {
   @Output() filter = new EventEmitter();
 
   public sortBy(sort: string) {
