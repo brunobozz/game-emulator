@@ -8,17 +8,19 @@
     </thead>
     <tbody>
       <tr *ngFor="let game of gamesList; let i = index">
-        <td>
-          {{ i + 1 }} -
-          <a routerLink="/game/{{ game.id }}">{{ game.title }}</a>
-        </td>
-        <td class="text-end">
-          <img
-            src="./assets/platforms/{{ game.platform }}.png"
-            width="80px"
-            alt=""
-          />
-        </td>
+        <ng-container *ngIf="game.title.toLowerCase().includes(searchTerm)">
+          <td>
+            {{ i + 1 }} -
+            <a routerLink="/game/{{ game.id }}">{{ game.title }}</a>
+          </td>
+          <td class="text-end">
+            <img
+              src="./assets/platforms/{{ game.platform }}.png"
+              width="80px"
+              alt=""
+            />
+          </td>
+        </ng-container>
       </tr>
     </tbody>
   </table>

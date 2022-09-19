@@ -6,6 +6,7 @@ import { games } from 'src/app/content/games';
   templateUrl: './games-list.component.html',
 })
 export class GamesListComponent implements OnInit {
+  public term: string = '';
   public gamesList = games;
 
   constructor() {}
@@ -41,5 +42,9 @@ export class GamesListComponent implements OnInit {
         break;
       }
     }
+  }
+
+  public searchTerm(event: any) {
+    this.term = event;
   }
 }

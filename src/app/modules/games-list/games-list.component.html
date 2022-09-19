@@ -6,5 +6,11 @@
     </h2>
     <app-games-list-filter (filter)="filter($event)"></app-games-list-filter>
   </div>
-  <app-games-list-table [gamesList]="gamesList"></app-games-list-table>
+  <app-games-list-search
+    (searchTerm)="searchTerm($event)"
+  ></app-games-list-search>
+  <app-games-list-table
+    [gamesList]="gamesList"
+    [searchTerm]="term"
+  ></app-games-list-table>
 </div>

@@ -1,0 +1,23 @@
+<div class="input-group mb-4">
+  <span class="input-group-text bg-dark text-light" id="basic-addon1">
+    <i class="fa fa-search"></i>
+  </span>
+  <input
+    #searchTerm
+    [(ngModel)]="term"
+    type="text"
+    class="form-control bg-dark"
+    placeholder="Find a game"
+    aria-label="Search field"
+    aria-describedby="Search to find a game"
+    (keyup)="changeTerm()"
+  />
+  <button
+    *ngIf="searchTerm.value != ''"
+    class="input-group-text btn btn-primary"
+    id="basic-addon2"
+    (click)="cleanSearch()"
+  >
+    <i class="fa fa-times"></i>
+  </button>
+</div>
