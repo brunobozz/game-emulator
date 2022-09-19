@@ -72,3 +72,14 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .platforms {
+    &-area {
+      &-item {
+        height: 100px;
+        margin: 20px;
+      }
+    }
+  }
+}

@@ -31,7 +31,6 @@ export class CmdGamesFormComponent implements OnInit {
 
   async submitForm() {
     if (this.gameForm.valid) {
-      console.log(this.gameForm.value);
       this.postForm();
     } else {
       this.toastr.error('Campos inválidos');
@@ -39,7 +38,6 @@ export class CmdGamesFormComponent implements OnInit {
   }
 
   private postForm() {
-    console.log('entrou aqui');
     this.apiService.postData('/games', this.gameForm.value).subscribe(() => {
       this.toastr.success('Form foi');
     });

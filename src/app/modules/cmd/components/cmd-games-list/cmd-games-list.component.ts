@@ -16,7 +16,6 @@ export class CmdGamesListComponent implements OnInit {
 
   private getGames() {
     this.apiService.getData('/games').subscribe((res: any) => {
-      console.log(res);
       this.gamesList = res;
       this.orderGames();
     });

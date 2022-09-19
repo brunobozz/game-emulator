@@ -16,7 +16,6 @@ export class MainNavbarComponent implements OnInit {
     this.router.events.subscribe((event: any) => {
       if (event instanceof NavigationEnd) {
         this.route = event.url;
-        console.log(event.url);
       }
     });
   }

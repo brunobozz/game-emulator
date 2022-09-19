@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -6,12 +6,10 @@ import { Router } from '@angular/router';
   templateUrl: './home-platforms.component.html',
   styleUrls: ['./home-platforms.component.scss'],
 })
-export class HomePlatformsComponent implements OnInit {
+export class HomePlatformsComponent {
   @Input() platforms: any;
 
   constructor(private router: Router) {}
-
-  ngOnInit(): void {}
 
   public letsPlatform(platform: string) {
     this.router.navigateByUrl('/platform/' + platform);
