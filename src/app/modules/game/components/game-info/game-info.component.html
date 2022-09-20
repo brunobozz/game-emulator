@@ -1,21 +1,25 @@
-<div class="game" style="background-image: url('{{ game.bg }}')">
+<div class="game" style="background-image: url('{{ game.bg2 }}')">
   <div class="game-gradient-left"></div>
   <div class="game-gradient-bottom"></div>
   <div class="game-info">
     <img class="game-info-logo" [src]="game.logo" alt="Game logo" />
-    <!-- <img class="game-info-cover" [src]="game.cover" alt="Game cover" /> -->
     <div class="game-info-text">
       <span class="text-white">{{ game.description.en }}</span>
     </div>
+    <button class="btn btn-primary btn-lg mb-2">
+      <i class="fa fa-play"></i>
+      <span> PLAY GAME</span>
+    </button>
     <div class="game-info-actions">
-      <button class="btn btn-primary btn-lg me-2">
-        <i class="fa fa-play"></i>
-        <span> PLAY GAME</span>
+      <button class="btn btn-outline-white m-1">
+        <i class="fa fa-heart"></i>
+        <span> ADD TO FAVORITE</span>
       </button>
-      <button class="btn btn-outline-white">
-        <i class="fa fa-star"></i>
-        <span> ADD FAVORITE</span>
+      <button class="btn btn-outline-white m-1">
+        <i class="fa fa-share-alt"></i>
+        <span> SHARE THIS GAME</span>
       </button>
     </div>
+    <app-game-rating></app-game-rating>
   </div>
 </div>

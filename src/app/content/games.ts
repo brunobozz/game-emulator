@@ -425,6 +425,7 @@ export const games = [
       'https://m.media-amazon.com/images/M/MV5BMGVlOGI0OTctZGZmOC00ZGE5LWE4YzUtOGVjZjVkYTcyY2Q3XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX853_.jpg',
     banner: 'https://e.rpp-noticias.io/xlarge/2018/08/13/443244_661579.jpg',
     bg: 'https://wallpaperaccess.com/full/2020871.jpg',
+    bg2: 'https://img.elo7.com.br/product/original/158F8E8/painel-super-mario-bros-2-painel-para-fotos.jpg',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Super_Mario_World_game_logo.svg/1280px-Super_Mario_World_game_logo.svg.png',
     rom: 'https://www.retrogames.cc/embed/16847-super-mario-world-usa.html',
     screens: [

@@ -1,0 +1,19 @@
+.rating {
+  direction: rtl;
+  margin-top: 20px;
+
+  i {
+    opacity: 0.5;
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  i:hover,
+  i:hover ~ i,
+  i:focus,
+  i:focus ~ i {
+    color: yellow;
+    opacity: 1;
+    cursor: pointer;
+  }
+}
