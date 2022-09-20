@@ -1,0 +1,58 @@
+.game {
+  width: 100%;
+  height: calc(100vh - 80px);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &-gradient-left {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+
+  &-gradient-bottom {
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+
+  &-info {
+    position: relative;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-logo {
+      width: 80%;
+    }
+
+    &-cover {
+      width: 50%;
+      margin: 20px 0;
+    }
+
+    &-text {
+      color: #fff;
+      width: 70%;
+      margin: 10px 0 30px;
+    }
+  }
+}

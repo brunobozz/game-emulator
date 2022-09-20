@@ -19,7 +19,7 @@ export const games = [
     title: 'Tekken 3',
     platform: 'psx',
     cover:
-      'https://www.covercentury.com/covers/psx/t/Tekken-3-NTSC-PSX-FRONT.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/61Xr894A3-L._SL1000_.jpg',
     rom: 'https://www.retrogames.cc/embed/40238-tekken-3.html',
     id: 'i464HvH',
   },
@@ -27,7 +27,7 @@ export const games = [
     title: '007 - Tomorrow Never Dies',
     platform: 'psx',
     cover:
-      'https://www.covercentury.com/covers/psx/1/007-Tomorrow-Never-Dies-NTSC-PSX-FRONT.jpg',
+      'https://www.mobygames.com/images/covers/l/141757-007-tomorrow-never-dies-playstation-front-cover.png',
     rom: 'https://www.retrogames.cc/embed/40787-007-tomorrow-never-dies.html',
     id: 'JM-yJL8',
   },
@@ -67,7 +67,7 @@ export const games = [
     title: 'Tomb Raider',
     platform: 'psx',
     cover:
-      'https://www.covercentury.com/covers/psx/t/Tomb-Raider-NTSC-PSX-FRONT.jpg',
+      'https://1.bp.blogspot.com/-_1ynYtW1kj4/YJSYNcM5U7I/AAAAAAAARM0/ubxfvEPCYUYzxTAJIRLMhreyD3Fdof9BwCNcBGAsYHQ/w800/tomb-raider-playstation-capa.jpg',
     rom: 'https://www.retrogames.cc/embed/42723-tomb-raider.html',
     id: 'OFK85S6',
   },
@@ -75,7 +75,7 @@ export const games = [
     title: 'Tomb Raider 2',
     platform: 'psx',
     cover:
-      'https://www.covercentury.com/covers/psx/t/Tomb-Raider-2-NTSC-PSX-FRONT.jpg',
+      'https://2.bp.blogspot.com/-tGmq_6UUk-I/WuZKs1SEq2I/AAAAAAAACH0/JdXDmZjdAGMoFqty4abSWv6_lJxuEf4IACEwYBhgL/s1600/1469%2B-%2BTomb%2BRaider%2BII%2B-%2BStarring%2BLara%2BCroft%2B%2528USA%2529%2B%2528v1.3%2529%2B-%2BTomb%2BRaider%2BII%2B-%2B7%2B-%2BAction%2BAdventure%2B-%2B01-11-1997.jpg',
     rom: 'https://www.retrogames.cc/embed/42724-tomb-raider-2.html',
     id: '1byKcG7',
   },
@@ -83,7 +83,7 @@ export const games = [
     title: "Tony Hawk's Pro Skater",
     platform: 'psx',
     cover:
-      'https://www.covercentury.com/covers/psx/t/Tony-Hawks-Pro-Skater-NTSC-PSX-FRONT.jpg',
+      'https://i.discogs.com/WXhb4oPzd2oVkOpVfsVBiSguXV95YCNVa-8gZqt_hGM/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NDQ3/ODA3LTE1OTE2ODQ4/MzUtNTY4NC5qcGVn.jpeg',
     rom: 'https://www.retrogames.cc/embed/42152-tony-hawks-pro-skater.html',
     id: 'PwnMTHB',
   },
@@ -205,14 +205,14 @@ export const games = [
     rom: 'https://www.retrogames.cc/embed/30614-ayrton-senna-s-super-monaco-gp-ii-europe.html',
     id: 'HY3ffMT',
   },
-  // {
-  //   title: 'Back to the Future Part II',
-  //   platform: 'master',
-  //   cover:
-  //     'https://www.mobygames.com/images/covers/l/48742-back-to-the-future-part-ii-sega-master-system-front-cover.jpg',
-  //   rom: 'https://www.retrogames.cc/embed/30616-back-to-the-future-part-ii-europe.html',
-  //   id: 'Rscx8R3',
-  // },
+  {
+    title: 'Back to the Future Part II',
+    platform: 'master',
+    cover:
+      'https://www.mobygames.com/images/covers/l/48742-back-to-the-future-part-ii-sega-master-system-front-cover.jpg',
+    rom: 'https://www.retrogames.cc/embed/30616-back-to-the-future-part-ii-europe.html',
+    id: 'Rscx8R3',
+  },
   {
     title: 'Back to the Future Part III',
     platform: 'master',
@@ -413,10 +413,28 @@ export const games = [
   },
   {
     title: 'Super Mario World',
+    description: {
+      pt: 'Super Mario World é um jogo eletrônico de plataforma 2D de rolagem lateral, no qual o jogador controla os protagonistas Mario ou Luigi. Sua jogabilidade é semelhante à dos títulos anteriores da série Super Mario – Super Mario Bros., Super Mario Bros. 2 e Super Mario Bros. 3 – mas introduz novos elementos.',
+      en: 'Super Mario World is a side-scrolling 2D platform game in which the player controls the protagonists Mario or Luigi. Its gameplay is similar to previous titles in the Super Mario series – Super Mario Bros., Super Mario Bros. 2 and Super Mario Bros. 3 – but introduces new elements.',
+      es: 'Super Mario World es un juego de plataformas 2D de desplazamiento lateral en el que el jugador controla a los protagonistas Mario o Luigi. Su modo de juego es similar al de los títulos anteriores de la serie Super Mario: Super Mario Bros., Super Mario Bros. 2 y Super Mario Bros. 3 – pero introduce nuevos elementos.',
+    },
     platform: 'snes',
     cover:
       'https://www.mobygames.com/images/covers/l/195535-super-mario-world-snes-front-cover.jpg',
+    poster:
+      'https://m.media-amazon.com/images/M/MV5BMGVlOGI0OTctZGZmOC00ZGE5LWE4YzUtOGVjZjVkYTcyY2Q3XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX853_.jpg',
+    banner: 'https://e.rpp-noticias.io/xlarge/2018/08/13/443244_661579.jpg',
+    bg: 'https://wallpaperaccess.com/full/2020871.jpg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Super_Mario_World_game_logo.svg/1280px-Super_Mario_World_game_logo.svg.png',
     rom: 'https://www.retrogames.cc/embed/16847-super-mario-world-usa.html',
+    screens: [
+      'https://www.retrogames.cz/games/245/SNES_00.gif',
+      'https://www.retrogames.cz/games/245/SNES_01.gif',
+      'https://www.retrogames.cz/games/245/SNES_02.gif',
+      'https://www.retrogames.cz/games/245/SNES_03.gif',
+      'https://www.retrogames.cz/games/245/SNES_04.gif',
+      'https://www.retrogames.cz/games/245/SNES_05.gif',
+    ],
     id: 'GPXmmtu',
   },
   {
@@ -893,7 +911,8 @@ export const games = [
   {
     title: 'X-Men vs. Street Fighter',
     platform: 'psx',
-    cover: 'https://cf.shopee.com.br/file/c3f1eddf04035d36f94727d385a48619',
+    cover:
+      'https://i.pinimg.com/originals/2a/93/30/2a9330fb9b3bf2d0c3858538c6c46a9b.jpg',
     rom: 'https://www.retrogames.cc/embed/42408-x-men-vs-street-fighter.html',
     id: 'Ke93di2',
   },
@@ -907,8 +926,7 @@ export const games = [
   {
     title: 'Marvel Super Heroes',
     platform: 'psx',
-    cover:
-      'https://www.covercentury.com/covers/psx/m/Marvel-Super-Heroes-NTSC-PSX-FRONT.jpg',
+    cover: 'https://greenhillszone.files.wordpress.com/2020/01/4992_front.jpg',
     rom: 'https://www.retrogames.cc/embed/9092-marvel-super-heroes-951024-asia.html',
     id: 'swhSAE2',
   },
@@ -1067,7 +1085,7 @@ export const games = [
     title: 'Jet Moto 2',
     platform: 'psx',
     cover:
-      'https://www.covercentury.com/covers/psx/j/Jet-Moto-2-NTSC-PSX-FRONT.jpg',
+      'https://i.pinimg.com/originals/42/1a/47/421a47c46c487d460ffa5d103ffb9441.jpg',
     rom: 'https://www.retrogames.cc/embed/41930-jet-moto-2.html',
     id: 'Jm700ex',
   },
@@ -1115,7 +1133,7 @@ export const games = [
     title: 'Metal Slug X',
     platform: 'psx',
     cover:
-      'https://www.covercentury.com/covers/psx/m/Metal-Slug-X-NTSC-PSX-FRONT.jpg',
+      'https://www.mobygames.com/images/covers/l/130457-metal-slug-x-playstation-front-cover.jpg',
     rom: 'https://www.retrogames.cc/embed/40065-metal-slug-x.html',
     id: 'ms0l73h',
   },
@@ -1131,7 +1149,7 @@ export const games = [
     title: 'Metal Gear Solid (Disc 2)',
     platform: 'psx',
     cover:
-      'https://www.covercentury.com/covers/psx/m/Metal-Gear-Solid-NTSC-PSX-FRONT.jpg',
+      'https://external-preview.redd.it/tc0scRfzcoDtmDKhS2-EUClc6KGn_pYmiZwPCDfbHDo.jpg?auto=webp&s=39761ad663ecdfed9393f627f30dabf51ca069ef',
     rom: 'https://www.retrogames.cc/embed/43267-metal-gear-solid-disc-2.html',
     id: 'mgs2ht6',
   },

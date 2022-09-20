@@ -1,2 +1,21 @@
-<h1>{{ game.title }}</h1>
-<img [src]="game.cover" height="300px" alt="" />
+<div class="game" style="background-image: url('{{ game.bg }}')">
+  <div class="game-gradient-left"></div>
+  <div class="game-gradient-bottom"></div>
+  <div class="game-info">
+    <img class="game-info-logo" [src]="game.logo" alt="Game logo" />
+    <!-- <img class="game-info-cover" [src]="game.cover" alt="Game cover" /> -->
+    <div class="game-info-text">
+      <span class="text-white">{{ game.description.en }}</span>
+    </div>
+    <div class="game-info-actions">
+      <button class="btn btn-primary btn-lg me-2">
+        <i class="fa fa-play"></i>
+        <span> PLAY GAME</span>
+      </button>
+      <button class="btn btn-outline-white">
+        <i class="fa fa-star"></i>
+        <span> ADD FAVORITE</span>
+      </button>
+    </div>
+  </div>
+</div>

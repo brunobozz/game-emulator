@@ -6,9 +6,10 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { SafePipe } from 'src/app/pipes/safe-pipe';
 import { GameInfoComponent } from './components/game-info/game-info.component';
+import { GameScreensComponent } from './components/game-screens/game-screens.component';
 
 @NgModule({
-  declarations: [GameComponent, SafePipe, GameInfoComponent],
+  declarations: [GameComponent, SafePipe, GameInfoComponent, GameScreensComponent],
   imports: [CommonModule, AppRoutingModule, HttpClientModule],
 })
 export class GameModule {}
