@@ -103,14 +103,6 @@ export const games = [
     id: 'a-PGkdT',
   },
   {
-    title: 'Twisted Metal 4',
-    platform: 'psx',
-    cover:
-      'https://i.pinimg.com/originals/47/8a/8a/478a8a4559a12889b33baedc3a37c7b7.jpg',
-    rom: 'https://www.retrogames.cc/embed/41548-twisted-metal-4.html',
-    id: '1u8hnxQ',
-  },
-  {
     title: '007 - GoldenEye',
     platform: 'n64',
     cover:
@@ -413,23 +405,29 @@ export const games = [
   },
   {
     title: 'Super Mario World',
-    description: {
+    summary: {
       pt: 'Super Mario World é um jogo eletrônico de plataforma 2D de rolagem lateral, no qual o jogador controla os protagonistas Mario ou Luigi. Sua jogabilidade é semelhante à dos títulos anteriores da série Super Mario – Super Mario Bros., Super Mario Bros. 2 e Super Mario Bros. 3 – mas introduz novos elementos.',
       en: 'Super Mario World is a side-scrolling 2D platform game in which the player controls the protagonists Mario or Luigi. Its gameplay is similar to previous titles in the Super Mario series – Super Mario Bros., Super Mario Bros. 2 and Super Mario Bros. 3 – but introduces new elements.',
       es: 'Super Mario World es un juego de plataformas 2D de desplazamiento lateral en el que el jugador controla a los protagonistas Mario o Luigi. Su modo de juego es similar al de los títulos anteriores de la serie Super Mario: Super Mario Bros., Super Mario Bros. 2 y Super Mario Bros. 3 – pero introduce nuevos elementos.',
     },
+    description1:
+      'Super Mario World, known in Japan as Super Mario World: Super Mario Bros. 4[a],[6] is a platform video game developed and published by Nintendo for the Super Nintendo Entertainment System. It was released in Japan in 1990, North America in 1991 and Europe and Australia in 1992. The player controls Mario on his quest to save Princess Toadstool and Dinosaur Land from the series antagonist Bowser and his minions, the Koopalings. The gameplay is similar to that of earlier Super Mario games: players control Mario or his brother Luigi through a series of levels in which the goal is to reach the goalpost at the end. Super Mario World introduced Yoshi, a dinosaur who can eat enemies, as well as gain abilities by eating the shells of Koopa Troopas.',
+    description2:
+      'Nintendo Entertainment Analysis & Development developed the game, led by director Takashi Tezuka and producer and series creator Shigeru Miyamoto. It is the first Mario game for the SNES and was designed to make the most of the console´s technical features. The development team had more freedom compared to the series installments for the Nintendo Entertainment System (NES). Yoshi was conceptualised during the development of the NES games but was not used until Super Mario World due to hardware limitations.',
+    description3:
+      'Super Mario World is often considered one of the best games in the series and is cited as one of the greatest video games ever made. It sold more than twenty million copies worldwide, making it the best-selling SNES game. It also led to an animated television series of the same name. It has been rereleased on multiple occasions: It was part of the 1994 compilation Super Mario All-Stars + Super Mario World for the SNES and was rereleased for the Game Boy Advance as Super Mario World: Super Mario Advance 2 in 2001, on the Virtual Console for the Wii, Wii U, and New Nintendo 3DS consoles, and as part of the Super NES Classic Edition. On 3 March 2016, it was released for the New Nintendo 3DS XL. It was released in 2019 for Nintendo Switch Online.',
     platform: 'snes',
     cover:
       'https://www.mobygames.com/images/covers/l/195535-super-mario-world-snes-front-cover.jpg',
     poster:
       'https://m.media-amazon.com/images/M/MV5BMGVlOGI0OTctZGZmOC00ZGE5LWE4YzUtOGVjZjVkYTcyY2Q3XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX853_.jpg',
     banner: 'https://e.rpp-noticias.io/xlarge/2018/08/13/443244_661579.jpg',
-    bg: 'https://wallpaperaccess.com/full/2020871.jpg',
-    bg2: 'https://img.elo7.com.br/product/original/158F8E8/painel-super-mario-bros-2-painel-para-fotos.jpg',
+    bg2: 'https://wallpaperaccess.com/full/2020871.jpg',
+    bg: 'https://img.elo7.com.br/product/original/158F8E8/painel-super-mario-bros-2-painel-para-fotos.jpg',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Super_Mario_World_game_logo.svg/1280px-Super_Mario_World_game_logo.svg.png',
     rom: 'https://www.retrogames.cc/embed/16847-super-mario-world-usa.html',
     screens: [
-      'https://www.retrogames.cz/games/245/SNES_00.gif',
+      // 'https://www.retrogames.cz/games/245/SNES_00.gif',
       'https://www.retrogames.cz/games/245/SNES_01.gif',
       'https://www.retrogames.cz/games/245/SNES_02.gif',
       'https://www.retrogames.cz/games/245/SNES_03.gif',
@@ -1220,7 +1218,7 @@ export const games = [
     title: 'Syphon Filter',
     platform: 'psx',
     cover:
-      'https://gamesplusinc.com/wp-content/uploads/2013/11/KGrHqRigE9oILyuVHBPtvKbDqeg60_35186.jpg',
+      'https://www.mobygames.com/images/covers/l/22046-syphon-filter-playstation-front-cover.jpg',
     rom: 'https://www.retrogames.cc/embed/40805-syphon-filter.html',
     id: 'sj73vF3',
   },
