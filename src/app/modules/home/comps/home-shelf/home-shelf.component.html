@@ -1,21 +1,32 @@
-<div class="header container-fluid">
-  <img src="./assets/platforms/{{ platform }}.png" alt="{{ platform }}" />
-  <button class="btn btn-outline-primary" routerLink="/platform/{{ platform }}">
-    See all
-  </button>
-</div>
-<div class="shelf scroll-y">
-  <div *ngFor="let item of items">
-    <div
-      *ngIf="item.platform == title"
-      class="shelf-item"
-      (click)="letsGame(item.id)"
+<div class="component">
+  <div class="header container-fluid">
+    <img src="./assets/platforms/{{ platform }}.png" alt="{{ platform }}" />
+    <button
+      class="btn btn-outline-primary"
+      routerLink="/platform/{{ platform }}"
     >
-      <img
-        class="shelf-item-img size-{{ title }}"
-        src="{{ item.cover }}"
-        alt="{{ item.title }}"
-      />
+      See all
+    </button>
+  </div>
+  <div class="component-button-left" (click)="scrollShelfLeft(shelf)">
+    <i class="fa fa-chevron-left"></i>
+  </div>
+  <div class="component-button-right" (click)="scrollShelfRight(shelf)">
+    <i class="fa fa-chevron-right"></i>
+  </div>
+  <div #shelf class="shelf scroll-y">
+    <div *ngFor="let item of items">
+      <div
+        *ngIf="item.platform == title"
+        class="shelf-item"
+        (click)="letsGame(item.id)"
+      >
+        <img
+          class="shelf-item-img size-{{ title }}"
+          src="{{ item.cover }}"
+          alt="{{ item.title }}"
+        />
+      </div>
     </div>
   </div>
 </div>
