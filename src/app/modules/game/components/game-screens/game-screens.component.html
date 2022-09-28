@@ -1,5 +1,12 @@
 <div class="screens">
-  <div class="screens-area scroll-y">
-    <img *ngFor="let screen of screens" src="{{ screen }}" alt="Game screen" />
+  <div class="screens-gradient"></div>
+  <div class="screens-area">
+    <div class="screens-area-move">
+      <img
+        *ngFor="let screen of screens"
+        src="{{ screen }}"
+        alt="Game screen"
+      />
+    </div>
   </div>
 </div>

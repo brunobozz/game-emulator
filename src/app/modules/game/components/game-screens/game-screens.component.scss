@@ -1,20 +1,36 @@
 .screens {
-  height: 150px;
   width: 100%;
-  background-color: #000;
   position: relative;
+  margin-top: -200px;
+
+  &-gradient {
+    height: 200px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
 
   &-area {
+    position: relative;
     width: 100%;
-    position: absolute;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-wrap: nowrap;
-    margin-top: -150px;
+    background-color: #000;
 
-    img {
-      border-radius: 10px;
-      margin: 0 20px;
+    &-move {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: -150px;
+      img {
+        border-radius: 10px;
+        margin: 20px;
+      }
     }
   }
 }
