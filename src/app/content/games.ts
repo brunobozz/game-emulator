@@ -1309,13 +1309,13 @@ export const games = [
     rom: 'https://www.retrogames.cc/embed/24864-simcity-usa.html',
     id: 'sc2hr47',
   },
-  // {
-  //   title: '',
-  //   platform: '',
-  //   cover: '',
-  //   rom: '',
-  //   id: '',
-  // },
+  {
+    title: 'Pac-Man World',
+    platform: 'psx',
+    cover: 'https://guardianacorn.com/wp-content/uploads/2018/08/box-art.jpg',
+    rom: 'https://www.retrogames.cc/embed/41677-pac-man-world.html',
+    id: 'pacw24f',
+  },
   // {
   //   title: '',
   //   platform: '',
