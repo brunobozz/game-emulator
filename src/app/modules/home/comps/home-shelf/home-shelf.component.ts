@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { timeout } from 'rxjs';
 
 @Component({
   selector: 'app-home-shelf',
@@ -11,12 +10,16 @@ export class HomeShelfComponent implements OnInit {
   @Input() items: any;
   @Input() platform?: string;
   @Input() title?: string;
-  public addressSearch!: HTMLElement;
+  private elem!: HTMLElement;
 
   constructor(private router: Router) {}
 
-  ngOnInit(): void {
-    // this.shuffleArray(this.items);
+  async ngOnInit() {
+    await this.shuffleArray(this.items);
+
+    // gambiarra para evitar que o ramdom da shelf mude quando clica na seta de scroll
+    // para testar apenas comente a linha a baixo e clique na seta de scroll dentro do app
+    await this.scrollShelfLeft(this.elem);
   }
 
   public letsGame(id: string) {

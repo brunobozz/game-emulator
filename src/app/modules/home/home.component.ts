@@ -17,7 +17,7 @@ export class HomeComponent {
     'snes',
     'master',
     'genesis',
-    'nes',
     'gba',
+    'nes',
   ];
 }
