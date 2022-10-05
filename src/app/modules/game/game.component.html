@@ -1,23 +1,20 @@
-<!-- <app-game-info [game]="game"></app-game-info>
+<app-game-info [game]="game" (playGame)="playGame()"></app-game-info>
 
 <app-game-screens [screens]="game.screens"></app-game-screens>
 
 <div class="p-4" style="background-color: black">
   <div class="container mt-4 mb-4 pb-4">
     <h1>{{ game.title }}</h1>
-    <p>
-      <img
-        [src]="game.poster"
-        style="float: left; width: 200px; margin-right: 20px"
-        alt=""
-      />
-      {{ game.description1 }}<br /><br />
-      {{ game.description2 }}<br /><br />
-      {{ game.description3 }}<br /><br />
-    </p>
+    <img
+      [src]="game.poster"
+      style="float: left; width: 200px; margin-right: 20px"
+      alt=""
+    />
+    <p [innerHTML]="game.description"></p>
   </div>
-</div> -->
+</div>
 
+<!-- 
 <div class="">
   <iframe
     *ngIf="game"
@@ -31,4 +28,4 @@
     scrolling="no"
     style="height: calc(100vh - 80px)"
   ></iframe>
-</div>
+</div> -->

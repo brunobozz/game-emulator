@@ -10,6 +10,7 @@ import { games } from 'src/app/content/games';
 export class GameComponent implements OnInit {
   public gamesList: any = games;
   public game: any;
+  public state = false;
 
   constructor(private activatedRoute: ActivatedRoute) {}
 
@@ -27,5 +28,9 @@ export class GameComponent implements OnInit {
 
   private findGame(id: string) {
     this.game = this.gamesList.find((x: any) => x.id === id);
+  }
+
+  public playGame() {
+    this.state = true;
   }
 }

@@ -11,13 +11,13 @@ export class HomeComponent {
   public gamesList: any = games;
 
   public platforms: any = [
-    'arcade',
-    'psx',
-    'n64',
+    // 'arcade',
+    // 'psx',
+    // 'n64',
     'snes',
-    'master',
+    // 'master',
     'genesis',
-    'gba',
-    'nes',
+    // 'gba',
+    // 'nes',
   ];
 }

@@ -7,6 +7,7 @@ import { EmulatorjsComponent } from './modules/game/components/emulatorjs/emulat
 import { GameComponent } from './modules/game/game.component';
 import { HomeComponent } from './modules/home/home.component';
 import { PlatformComponent } from './modules/platform/platform.component';
+import { PlayComponent } from './modules/play/play.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,10 @@ const routes: Routes = [
   {
     path: 'game/:id',
     component: GameComponent,
+  },
+  {
+    path: 'play/:id',
+    component: PlayComponent,
   },
   {
     path: 'platform/:platform',

@@ -2,11 +2,10 @@
   <div class="screens-gradient"></div>
   <div class="screens-area">
     <div class="screens-area-move">
-      <img
+      <div
         *ngFor="let screen of screens"
-        src="{{ screen }}"
-        alt="Game screen"
-      />
+        style="background-image:url('{{ screen }}');"
+      ></div>
     </div>
   </div>
 </div>

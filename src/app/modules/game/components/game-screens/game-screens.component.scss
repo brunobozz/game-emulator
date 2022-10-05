@@ -27,9 +27,13 @@
       flex-wrap: wrap;
       justify-content: center;
       margin-top: -150px;
-      img {
+      div {
         border-radius: 10px;
+        height: 180px;
+        width: 240px;
         margin: 20px;
+        background-position: center;
+        background-size: cover;
       }
     }
   }

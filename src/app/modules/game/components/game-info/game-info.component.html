@@ -1,11 +1,14 @@
-<div class="game" style="background-image: url('{{ game.bg2 }}')">
+<div class="game" style="background-image: url('{{ game.bg }}')">
   <div class="game-gradient-left"></div>
   <div class="game-info">
     <img class="game-info-logo" [src]="game.logo" alt="Game logo" />
     <div class="game-info-text">
-      <span class="text-white">{{ game.summary.en }}</span>
+      <span class="text-white">{{ game.summary }}</span>
     </div>
-    <button class="btn btn-primary btn-lg mb-2">
+    <button
+      class="btn btn-primary btn-lg mb-2"
+      routerLink="/play/{{ game.id }}"
+    >
       <i class="fa fa-play"></i>
       <span> PLAY GAME</span>
     </button>
