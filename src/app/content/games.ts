@@ -1603,7 +1603,7 @@ export const games = [
     title: 'Medal of Honor - Underground',
     platform: 'psx',
     cover: 'https://www.mobygames.com/images/covers/l/103165-medal-of-honor-underground-playstation-front-cover.jpg',
-    room: 'https://www.retrogames.cc/embed/43154-medal-of-honor-underground.htm',
+    room: 'https://www.retrogames.cc/embed/43154-medal-of-honor-underground.html',
     id: 'mdloh76',
   },
   {
