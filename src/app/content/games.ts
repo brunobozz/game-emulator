@@ -1590,7 +1590,7 @@ export const games = [
     platform: 'genesis',
     cover: 'https://now.estarland.com/images/products/hr/4747/010086015539.jpg',
     room: 'https://www.retrogames.cc/embed/28550-ecco-the-tides-of-time-usa.html',
-    id: 'rh6gks3',
+    id: 'rh6gbs3',
   },
   // {
   //   title: '',
