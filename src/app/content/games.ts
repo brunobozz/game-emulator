@@ -1592,6 +1592,13 @@ export const games = [
     room: 'https://www.retrogames.cc/embed/28550-ecco-the-tides-of-time-usa.html',
     id: 'rh6gbs3',
   },
+  {
+    title: 'The King of Fighters 98',
+    platform: 'psx',
+    cover: 'https://www.mobygames.com/images/covers/l/8756-the-king-of-fighters-98-the-slugfest-playstation-front-cover.jpg',
+    room: 'https://www.retrogames.cc/embed/41954-king-of-fighters-98.html',
+    id: '1bm99fg',
+  },
   // {
   //   title: '',
   //   platform: '',
