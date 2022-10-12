@@ -1627,6 +1627,13 @@ export const games = [
     room: 'https://www.retrogames.cc/embed/24938-kirby-super-star-usa.html',
     id: 'kbyss98',
   },
+  {
+    title: 'Beyblade: Let it Rip!',
+    platform: 'psx',
+    cover: 'https://psxdatacenter.com/images/hires/P/B/SLES-04093/SLES-04093-F-F.jpg',
+    room: 'https://www.retrogames.cc/embed/41611-beyblade-let-it-rip.html',
+    id: 'bb23lla',
+  },
   // {
   //   title: '',
   //   platform: '',
