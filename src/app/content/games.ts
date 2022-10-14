@@ -1637,7 +1637,7 @@ export const games = [
   {
     title: 'Neo Bomberman',
     platform: 'arcade',
-    cover: 'https://static.wikia.nocookie.net/bomberman/images/0/06/Neo_Bomberman_capa.jpg/revision/latest?cb=20200131213731&path-prefix=pt-br',
+    cover: 'https://randomhoohaas.flyingomelette.com/bomb/arc-neo/img/banner2.JPG',
     room: 'https://www.retrogames.cc/embed/9293-neo-bomberman.html',
     id: 'd93jf9k',
   },
