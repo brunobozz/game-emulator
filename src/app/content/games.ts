@@ -98,7 +98,7 @@ export const games = [
     title: "Tony Hawk's Pro Skater 3",
     platform: 'psx',
     cover:
-      'https://cdromance.com/wp-content/uploads/2016/02/tony-hawks-pro-skater-3-usa-coverart.jpg',
+      'http://1.bp.blogspot.com/_29rBCbuKHC4/SeShLe5tjkI/AAAAAAAABpQ/pxGNaeB30AM/s320/Tony+Hawks+Pro+Skater+3.jpg',
     room: 'https://www.retrogames.cc/embed/42331-tony-hawks-pro-skater-3.html',
     id: 'arPGkdT',
   },
@@ -289,7 +289,7 @@ export const games = [
     title: 'R.C. Grand Prix',
     platform: 'master',
     cover:
-      'https://bdjogos.com.br/capas/39-RC-Grand-Prix-Master-System-capa-1.jpg',
+      'https://i.imgur.com/rL6fx1G.jpg',
     room: 'https://www.retrogames.cc/embed/30851-r-c-grand-prix-usa-europe.html',
     id: 'it9PYrm',
   },
@@ -753,7 +753,7 @@ export const games = [
     title: 'Captain Commando',
     platform: 'snes',
     cover:
-      'https://jumpersroms.files.wordpress.com/2020/04/captain-commando-c-snes-pt-br-1.jpg',
+      'https://bdjogos.com.br/capas/6834-captain-commando-Super-Nintendo-capa-1.jpg',
     room: 'https://www.retrogames.cc/embed/24501-captain-commando-usa.html',
     id: 'Utne522',
   },
@@ -933,7 +933,7 @@ export const games = [
     title: 'International Superstar Soccer 2000',
     platform: 'n64',
     cover:
-      'https://jumpersroms.files.wordpress.com/2020/03/international-superstar-soccer-2000-c-n64.jpg?w=640',
+      'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51KQKY2SEHL.jpg',
     room: 'https://www.retrogames.cc/embed/32980-international-superstar-soccer-2000-usa-en-es.html',
     id: 'srVtr24',
   },
@@ -997,7 +997,7 @@ export const games = [
     title: 'Contra III - The Alien Wars',
     platform: 'snes',
     cover:
-      'https://jumpersroms.files.wordpress.com/2019/09/contra-iii-snes.jpg?w=1000',
+      'https://www.gamecoin.com.br/wp-content/uploads/2018/01/GAMECOIN-CONTRA-3-CAPA.jpg',
     room: 'https://www.retrogames.cc/embed/23268-contra-iii-the-alien-wars-usa.html',
     id: 'kBr4s2g',
   },
@@ -1064,13 +1064,6 @@ export const games = [
       'https://i.pinimg.com/564x/38/80/71/3880716cbe8a0c84ac6f9752101820b0.jpg',
     room: 'https://www.retrogames.cc/embed/41647-carmageddon.html',
     id: 'ec5kfl9',
-  },
-  {
-    title: 'Alone in the Dark - One Eyed Jack´s Revenge',
-    platform: 'psx',
-    cover: 'https://cdromance.com/wp-content/uploads/2019/02/33940_front.jpg',
-    room: 'https://www.retrogames.cc/embed/41540-alone-in-the-dark-one-eyed-jacks-revenge.html',
-    id: 'bombf4D',
   },
   {
     title: 'Die Hard Trilogy',
